@@ -1,0 +1,109 @@
+{
+    "core": {
+      "set-lang": "Success! Your language has been updated.",
+      "no-perms": "You do not have access to this command!",
+      "unknown-command": "Unknown command, try again!",
+      "invalid-syntax": "Invalid syntax, please use:",
+      "tebex": {
+        "tebex-no-vip": "You must have VIP+ to use this command!",
+        "tebex-no-mvp": "You must have MVP+ to use this command!",
+        "tebex-no-perms": "You do not have permission to use this donator perk!",
+        "weapon-skin": "Your weapon tint/skin has been applied!"
+      },
+      "announcements": [
+        "You can join our discord for support, cool perks and memes! https://cosmicv.net/discord",
+        "Have a problem with a player on our server? Use /report {id} {reason} for staff to review!",
+        "Did you know you can vote for maps and gamemodes on our discord? https://cosmicv.net/discord",
+        "Interested in supporting the community development? Look at our store: https://store.cosmicv.net",
+        "Donators are able to cusomize their weapon skins, player models and more! https://store.cosmicv.net",
+        "VIP+ users can customise their join/leave messages from the server! https://store.comsicv.net",
+        "Not fancy playing the minigame your in anymore? Use /lobby to checkout a variety of other gamemodes!"
+      ],
+      "basic": {
+        "forwards": "Forward",
+        "backwards": "Reverse",
+        "left": "Left",
+        "right": "Right",
+        "dead": "Dead",
+        "no-money": "No Money",
+        "insufficient-funds": "Insufficient Funds",
+        "yes": "Yes",
+        "no": "No",
+        "confirm": "Confirm",
+        "deny": "Deny",
+        "primary": "Primary",
+        "secondary": "Secondary",
+        "special": "Special",
+        "throwable": "Throwable",
+        "killstreaks": "Killstreaks",
+        "shop": "Shop",
+        "died": "Died"
+      }
+    },
+    "koth": {
+      "description": "Fight to the death in a multiplayer gamemode. Gain XP and Money from kills and helping your team-mates to help improve your arsenal!",
+      "team-selector": "TEAM SELECTOR",
+      "team-full": "This team is currently full or unbalanced. Choose another team instead!",
+      "shop": {
+        "enter-shop": "PRESS E TO ENTER SHOP",
+        "enter-preset": "PRESS G TO OPEN LOADOUTS",
+        "repair-cost": "PRESS E TO REPAIR\nCOST: $",
+        "restock-cost": "PRESS E TO RESTOCK AMMO\nCOST: $",
+        "no-nearby-vehicle": "NO VEHICLE NEARBY!",
+        "half-full": "YOUR VEHICLE IS\nOVER HALF FULL!",
+        "not-in-weapon-veh": "YOU HAVE NOT BEEN IN\nA WEAPONIZED VEHICLE",
+        "no-damage": "THIS VEHICLE IS NOT DAMAGED!",
+        "not-in-veh": "YOU HAVE NOT BEEN IN\nA VEHICLE",
+        "weapon-shop-toast": "WEAPON SHOP",
+        "vehicle-shop-toast": "VEHICLE SHOP",
+        "ammo-restock-toast": "AMMO RESTOCK",
+        "vehicle-repair-toast": "VEHICLE REPAIR",
+        "repair-toast": "PRESS E TO FIX",
+        "revive-toast": "PRESS E TO REVIVE"
+      },
+      "events": {
+        "friendlyfire": "friendly fire",
+        "driver-assist": "driver assist",
+        "assist": "assist",
+        "kill-streak": "kill streak",
+        "vehicle-destroy": "vehicle destroy",
+        "headshot": "headshot",
+        "kill": "kill",
+        "longshot": "longshot",
+        "hipfire": "hipfire",
+        "reload-kill": "reload kill",
+        "transport": "transport",
+        "playing": "playing the game!",
+        "defending-obj": "defending the objective!",
+        "attacking-obj": "attacking objective!",
+        "healing": "healing",
+        "team-healer": "team healer",
+        "ammo-restock": "ammo restock",
+        "ammo-refill": "ammo refill",
+        "team-supply": "team supply",
+        "team-revive": "team-mate revive",
+        "vehicle-repair": "vehicle repair"
+      },
+      "presets": {
+        "safezone": "You must be in your safezone to use this command!",
+        "name-in-use": "This name is already in use, please try another!",
+        "buy-more-slots": "You have already reached your maximum slots, upgrade your rank at https://store.cosmicv.net for more!",
+        "deleted": "Successfully deleted preset!",
+        "renamed": "Successfully renamed preset!",
+        "help": "Preset Help",
+        "none": "No presets have been made. Rent/buy some items and then save using /preset save",
+        "no-cash": "You do not have enough money to rent this preset!",
+        "created": "Successfully created a preset named:",
+        "error": "Error creating preset, please contact an administrator."
+      },
+      "rc-xd": {
+        "detonate": "Detonate Explosives",
+        "out-of-range": "WARNING\nOut of range, signal low.\nMax: ("
+      },
+      "airstrike": {
+        "instruct": "MOVE GPS LOCATION\nTO CHANGE TARGET",
+        "out-of-range": "AIRSTRIKE OUT OF RANGE",
+        "airstrike": "AIRSTRIKE"
+      }
+    }
+  }
