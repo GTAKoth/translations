@@ -1,0 +1,127 @@
+{
+    "core": {
+      "set-lang": "Grattis! Ditt språk har uppdaterats.",
+      "no-perms": "Du har inte berhörighet för detta kommando!",
+      "unknown-command": "Okänt kommando, försök igen!",
+      "invalid-syntax": "Felaktig syntax, använd:",
+      "tebex": {
+        "tebex-no-vip": "Du måste vara VIP+ för att använda detta kommando!",
+        "tebex-no-mvp": "Du måste vara MVP+ för att använda detta kommando!",
+        "tebex-no-perms": "Du har inte berhörighet för att använda donator förmånerna!",
+        "weapon-skin": "Ditt vapen camo har applicerats!"
+      },
+      "announcements": {
+        "announce1": "Du kan gå med i våran discord för, coola förmåner and memes! https://cosmicv.net/koth",
+        "announce2": "Har du problem med en spelare på våran server? Använd /report {id} {anledning} så kommer en staff kolla på det!",
+        "announce3": "Visste du att du kan rösta för kartor och gamemodes på vår discord? https://cosmicv.net/koth",
+        "announce4": "Intresserad att hjälpa vårat community att växa? Ta en titt på vår affär!: https://store.cosmicv.net",
+        "announce5": "Donators kan ändra vapen camo, spelar modeller och mer! https://store.cosmicv.net",
+        "announce6": "VIP+ användare kan ändra deras anslut / lämna meddelanden på servern! https://store.comsicv.net",
+        "announce7": "Inte sugen på att spela detta minigame längre? Använd /lobby för att kolla massa flera gamemodes!"
+      },
+      "basic": {
+        "forwards": "Framåt",
+        "backwards": "Bakåt",
+        "left": "Vänster",
+        "right": "Höger",
+        "dead": "Död",
+        "no-money": "Inga pengar",
+        "insufficient-funds": "Inte tillräckligt med pengar",
+        "yes": "Ja",
+        "no": "Nej",
+        "confirm": "Godkänn",
+        "deny": "Neka",
+        "primary": "Primär",
+        "secondary": "Sekundär",
+        "special": "Special",
+        "throwable": "Kastbara",
+        "killstreaks": "Killstreaks",
+        "shop": "Affär",
+        "died": "Dog"
+      }
+    },
+    "koth": {
+      "koth-description": "Fighta in till döden i detta flerspelar gamemodet! Få XP och pengar genon att döda och hjälpa dina lag-kamrater för att sedan uppgradera dina tillgångar!",
+      "team-selector": "Lag Val",
+      "team-full": "Detta lag är fullt eller obalanserat. Välj ett annat lag istället!",
+      "shop": {
+        "enter-shop": "Tryck E för att öppna afffären",
+        "enter-preset": "Tryck G ör att öppna loadouts",
+        "repair-cost": "Tryck E för att laga\nCost: $",
+        "restock-cost": "Tryck E to fylla på ammo\nCost: $",
+        "no-nearby-vehicle": "Inga fordon nära!",
+        "half-full": "Din bil är över halvfull!",
+        "not-in-weapon-veh": "Du är inte i ett\na vapeniserat fordon",
+        "veh-no-damage": "Fordonet är inte skadat!",
+        "not-in-veh": "Du är inte i ett fordon!",
+        "weapon-shop-toast": "VAPEN AFFÄR",
+        "vehicle-shop-toast": "FORDONS AFFÄR",
+        "ammo-restock-toast": "AMMO PÅFYLLNING",
+        "vehicle-repair-toast": "FORDONS LAGNING",
+        "repair-toast": "TRYCK E FÖR ATT LAGA",
+        "revive-toast": "TRYCK E FÖR ATT ÅTERUPPLIVAS",
+        "you-can-not-exit-here": "Du kan inte gå ut ur dit fordon här, flytta på det!"
+      },
+      "events": {
+        "friendlyfire": "friendly fire",
+        "driver-assist": "förar-hjälp",
+        "assist": "hjälp",
+        "kill-streak": "kill streak",
+        "vehicle-destroy": "fordon förstört",
+        "headshot": "huvudskott",
+        "kill": "mord",
+        "longshot": "långskott",
+        "hipfire": "höftskott",
+        "reload-kill": "omladdnings mord",
+        "transport": "transport",
+        "playing": "spelar spelet!",
+        "defending-obj": "försvarar objektet!",
+        "attacking-obj": "attackerar objektet!",
+        "healing": "helar",
+        "team-healer": "lag helare",
+        "ammo-restock": "ammo påfyllning",
+        "ammo-refill": "ammo påfyllning",
+        "team-supply": "lag påfyllning",
+        "team-revive": "lag-kamrat återupplivning",
+        "vehicle-repair": "fordons lagning"
+      },
+      "presets": {
+        "preset-safezone": "Du måste vara i din bas för att använda detta kommando!!",
+        "preset-name-in-use": "Detta namn används redan, vänligen välj ett annat!",
+        "preset-buy-more-slots": "Du har redan uppnått dina maximala platser, uppgradera rank här: https://store.cosmicv.net",
+        "preset-deleted": "Förinställningen har tagits bort!",
+        "preset-renamed": "Förinställningen har bytt namn!",
+        "preset-help": "Förinställningar Hjälp",
+        "preset-none": "Inga förinställningar har gjorts. Hyr/Köp lite föremål och spara genom att använda /preset save",
+        "preset-no-cash": "Du har inte råd att hyra din förinställda setup!",
+        "preset-created": "Skapade en förinställning med namnet:",
+        "preset-error": "Fel vid skapande av förinställning, kontakta en administratör."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Detonera Bomb",
+        "rc-xd-out-of-range": "WARNING\nUtom avstånd, dålig signal.\nMax: ("
+      },
+      "airstrike": {
+        "airstrike-instruct": "FLYTTA GPS\nFÖR ATT FLYTTA MÅL",
+        "airstrike-out-of-range": "LUFTANGREPP UTOM AVSTÅND",
+        "airstrike": "LUFTANGREPP"
+      },
+      "attachments": {
+        "attachments-in-spawn": "Du kan bara använda bilagor när du är i din bas!",
+        "attachments-no-weapon": "Detta vapen har inga redskap redo än!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Du har inte tillräckligt med prestigemynt för att komma åt butiken!",
+        "not-100": "Du måste vara nivå 100+ för att prestige!",
+        "need-10k": "Du behöver minst 10 000 dollar för att prestige."
+      },
+      "boosters": {
+        "koth-boost-added": "En Boost har lagts till i ditt förråd",
+        "koth-boost-active": "Du har redan en typ av denna booster aktiv!",
+        "koth-boost-started": "Boost aktiverad!",
+        "koth-boost-expired": "Din boost tog slut! Du kan köpa flera i affären!",
+        "koth-xp-continued": "XP Boost har fortsatt!",
+        "koth-money-continued": "Money Boost har fortsatt!"
+      }
+    }
+  }

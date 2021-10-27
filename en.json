@@ -1,127 +1,132 @@
 {
-  "core": {
-    "set-lang": "Success! Your language has been updated.",
-    "no-perms": "You do not have access to this command!",
-    "unknown-command": "Unknown command, try again!",
-    "invalid-syntax": "Invalid syntax, please use:",
-    "tebex": {
-      "tebex-no-vip": "You must have VIP+ to use this command!",
-      "tebex-no-mvp": "You must have MVP+ to use this command!",
-      "tebex-no-perms": "You do not have permission to use this donator perk!",
-      "weapon-skin": "Your weapon tint/skin has been applied!"
+    "core": {
+      "set-lang": "Success! Your language has been updated.",
+      "no-perms": "You do not have access to this command!",
+      "unknown-command": "Unknown command, try again!",
+      "invalid-syntax": "Invalid syntax, please use:",
+      "game-full": "This gamemode is currently full, please select another gamemode",
+      "tebex": {
+        "tebex-no-vip": "You must have VIP+ to use this command!",
+        "tebex-no-mvp": "You must have MVP+ to use this command!",
+        "tebex-no-perms": "You do not have permission to use this donator perk!",
+        "weapon-skin": "Your weapon tint/skin has been applied!"
+      },
+      "announcements": {
+        "announce1": "You can join our discord for support, cool perks and memes! https://cosmicv.net/koth",
+        "announce2": "Have a problem with a player on our server? Use /report {id} {reason} for staff to review!",
+        "announce3": "Did you know you can vote for maps and gamemodes on our discord? https://cosmicv.net/koth",
+        "announce4": "Interested in supporting the community development? Look at our store: https://store.cosmicv.net",
+        "announce5": "VIPs and MVPs are able to cusomize their weapon skins and more! https://store.cosmicv.net",
+        "announce6": "VIP+ users can customise their join/leave messages from the server! https://store.comsicv.net",
+        "announce7": "Not fancy playing the minigame your in anymore? Use /lobby to checkout a variety of other gamemodes!"
+      },
+      "basic": {
+        "forwards": "Forward",
+        "backwards": "Reverse",
+        "left": "Left",
+        "right": "Right",
+        "dead": "Dead",
+        "no-money": "No Money",
+        "insufficient-funds": "Insufficient Funds",
+        "yes": "Yes",
+        "no": "No",
+        "confirm": "Confirm",
+        "deny": "Deny",
+        "primary": "Primary",
+        "secondary": "Secondary",
+        "special": "Special",
+        "throwable": "Throwable",
+        "killstreaks": "Killstreaks",
+        "shop": "Shop",
+        "died": "Died"
+      }
     },
-    "announcements": {
-      "announce1": "You can join our discord for support, cool perks and memes! https://cosmicv.net/discord",
-      "announce2": "Have a problem with a player on our server? Use /report {id} {reason} for staff to review!",
-      "announce3": "Did you know you can vote for maps and gamemodes on our discord? https://cosmicv.net/discord",
-      "announce4": "Interested in supporting the community development? Look at our store: https://store.cosmicv.net",
-      "announce5": "Donators are able to cusomize their weapon skins, player models and more! https://store.cosmicv.net",
-      "announce6": "VIP+ users can customise their join/leave messages from the server! https://store.comsicv.net",
-      "announce7": "Not fancy playing the minigame your in anymore? Use /lobby to checkout a variety of other gamemodes!"
-    },
-    "basic": {
-      "forwards": "Forward",
-      "backwards": "Reverse",
-      "left": "Left",
-      "right": "Right",
-      "dead": "Dead",
-      "no-money": "No Money",
-      "insufficient-funds": "Insufficient Funds",
-      "yes": "Yes",
-      "no": "No",
-      "confirm": "Confirm",
-      "deny": "Deny",
-      "primary": "Primary",
-      "secondary": "Secondary",
-      "special": "Special",
-      "throwable": "Throwable",
-      "killstreaks": "Killstreaks",
-      "shop": "Shop",
-      "died": "Died"
-    }
-  },
-  "koth": {
-    "koth-description": "Fight to the death in a multiplayer gamemode. Gain XP and Money from kills and helping your team-mates to help improve your arsenal!",
-    "team-selector": "TEAM SELECTOR",
-    "team-full": "This team is currently full or unbalanced. Choose another team instead!",
-    "shop": {
-      "enter-shop": "Press E to enter shop",
-      "enter-preset": "Press G to open loadouts",
-      "repair-cost": "Press E to repair\nCost: $",
-      "restock-cost": "Press E to restock ammo\nCost: $",
-      "no-nearby-vehicle": "No vehicle nearby!",
-      "half-full": "Your vehicle is over half full!",
-      "not-in-weapon-veh": "You have not been in\na weaponized vehicle",
-      "veh-no-damage": "This vehicle is not damaged!",
-      "not-in-veh": "You have not been in a vehicle!",
-      "weapon-shop-toast": "WEAPON SHOP",
-      "vehicle-shop-toast": "VEHICLE SHOP",
-      "ammo-restock-toast": "AMMO RESTOCK",
-      "vehicle-repair-toast": "VEHICLE REPAIR",
-      "repair-toast": "PRESS E TO FIX",
-      "revive-toast": "PRESS E TO REVIVE",
-      "you-can-not-exit-here": "You can not exit your vehicle here, move forward!"
-    },
-    "events": {
-      "friendlyfire": "friendly fire",
-      "driver-assist": "driver assist",
-      "assist": "assist",
-      "kill-streak": "kill streak",
-      "vehicle-destroy": "vehicle destroy",
-      "headshot": "headshot",
-      "kill": "kill",
-      "longshot": "longshot",
-      "hipfire": "hipfire",
-      "reload-kill": "reload kill",
-      "transport": "transport",
-      "playing": "playing the game!",
-      "defending-obj": "defending the objective!",
-      "attacking-obj": "attacking objective!",
-      "healing": "healing",
-      "team-healer": "team healer",
-      "ammo-restock": "ammo restock",
-      "ammo-refill": "ammo refill",
-      "team-supply": "team supply",
-      "team-revive": "team-mate revive",
-      "vehicle-repair": "vehicle repair"
-    },
-    "presets": {
-      "preset-safezone": "You must be in your safezone to use this command!",
-      "preset-name-in-use": "This name is already in use, please try another!",
-      "preset-buy-more-slots": "You have already reached your maximum slots, upgrade your rank at https://store.cosmicv.net for more!",
-      "preset-deleted": "Successfully deleted preset!",
-      "preset-renamed": "Successfully renamed preset!",
-      "preset-help": "Preset Help",
-      "preset-none": "No presets have been made. Rent/buy some items and then save using /preset save",
-      "preset-no-cash": "You do not have enough money to rent this preset!",
-      "preset-created": "Successfully created a preset named:",
-      "preset-error": "Error creating preset, please contact an administrator."
-    },
-    "rc-xd": {
-      "rc-xd-detonate": "Detonate Explosives",
-      "rc-xd-out-of-range": "WARNING\nOut of range, signal low.\nMax: ("
-    },
-    "airstrike": {
-      "airstrike-instruct": "MOVE GPS LOCATION\nTO CHANGE TARGET",
-      "airstrike-out-of-range": "AIRSTRIKE OUT OF RANGE",
-      "airstrike": "AIRSTRIKE"
-    },
-    "attachments": {
-      "attachments-in-spawn": "You can only apply attachments while in your spawn!",
-      "attachments-no-weapon": "This weapon does not have any attachments ready yet!"
-    },
-    "prestige": {
-      "no-prestige-coins": "You do not have enough prestige coins to access the shop!",
-      "not-100": "You need to be level 100+ to prestige!",
-      "need-10k": "You need at least $10,000 to prestige."
-    },
-    "boosters": {
-      "koth-boost-added": "Boost has been added to your inventory",
-      "koth-boost-active": "You already have a booster of this type active!",
-      "koth-boost-started": "Boost has been activated!",
-      "koth-boost-expired": "Your boost has expired! You can buy more on the store!",
-      "koth-xp-continued": "XP Boost has been continued!",
-      "koth-money-continued": "Money Boost has been continued!"
+    "koth": {
+      "koth-description": "Fight to the death in a multiplayer gamemode. Gain XP and Money from kills and helping your team-mates to help improve your arsenal!",
+      "team-selector": "TEAM SELECTOR",
+      "team-full": "This team is currently full or unbalanced. Choose another team instead!",
+      "shop": {
+        "enter-shop": "Press E to enter shop",
+        "enter-preset": "Press G to open loadouts",
+        "repair-cost": "Press E to repair\nCost: $",
+        "restock-cost": "Press E to restock ammo\nCost: $",
+        "no-nearby-vehicle": "No vehicle nearby!",
+        "half-full": "Your vehicle is over half full!",
+        "not-in-weapon-veh": "You have not been in\na weaponized vehicle",
+        "veh-no-damage": "This vehicle is not damaged!",
+        "not-in-veh": "You have not been in a vehicle!",
+        "weapon-shop-toast": "WEAPON SHOP",
+        "vehicle-shop-toast": "VEHICLE SHOP",
+        "ammo-restock-toast": "AMMO RESTOCK",
+        "vehicle-repair-toast": "VEHICLE REPAIR",
+        "repair-toast": "PRESS E TO FIX",
+        "revive-toast": "PRESS E TO REVIVE",
+        "you-can-not-exit-here": "You can not exit your vehicle here, move forward!"
+      },
+      "events": {
+        "friendlyfire": "friendly fire",
+        "driver-assist": "driver assist",
+        "assist": "assist",
+        "squad-assist": "squad assist",
+        "kill-streak": "kill streak",
+        "vehicle-destroy": "vehicle destroy",
+        "headshot": "headshot",
+        "kill": "kill",
+        "longshot": "longshot",
+        "hipfire": "hipfire",
+        "reload-kill": "reload kill",
+        "transport": "transport",
+        "playing": "playing the game!",
+        "defending-obj": "defending the objective!",
+        "attacking-obj": "attacking objective!",
+        "healing": "healing",
+        "team-healer": "team healer",
+        "squad-healer": "squad healer",
+        "ammo-restock": "ammo restock",
+        "ammo-refill": "ammo refill",
+        "team-supply": "team supply",
+        "squad-supply": "squad supply",
+        "team-revive": "team-mate revive",
+        "squad-revive": "squad-mate revive",
+        "vehicle-repair": "vehicle repair"
+      },
+      "presets": {
+        "preset-safezone": "You must be in your safezone to use this command!",
+        "preset-name-in-use": "This name is already in use, please try another!",
+        "preset-buy-more-slots": "You have already reached your maximum slots, upgrade your rank at https://store.cosmicv.net for more!",
+        "preset-deleted": "Successfully deleted preset!",
+        "preset-renamed": "Successfully renamed preset!",
+        "preset-help": "Preset Help",
+        "preset-none": "No presets have been made. Rent/buy some items and then save using /preset save",
+        "preset-no-cash": "You do not have enough money to rent this preset!",
+        "preset-created": "Successfully created a preset named:",
+        "preset-error": "Error creating preset, please contact an administrator."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Detonate Explosives",
+        "rc-xd-out-of-range": "WARNING\nOut of range, signal low.\nMax: ("
+      },
+      "airstrike": {
+        "airstrike-instruct": "MOVE GPS LOCATION\nTO CHANGE TARGET",
+        "airstrike-out-of-range": "AIRSTRIKE OUT OF RANGE",
+        "airstrike": "AIRSTRIKE"
+      },
+      "attachments": {
+        "attachments-in-spawn": "You can only apply attachments while in your spawn!",
+        "attachments-no-weapon": "This weapon does not have any attachments ready yet!"
+      },
+      "prestige": {
+        "no-prestige-coins": "You do not have enough prestige coins to access the shop!",
+        "not-100": "You need to be level 100+ to prestige!",
+        "need-10k": "You need at least $10,000 to prestige."
+      },
+      "boosters": {
+        "koth-boost-added": "Boost has been added to your inventory",
+        "koth-boost-active": "You already have a booster of this type active!",
+        "koth-boost-started": "Boost has been activated!",
+        "koth-boost-expired": "Your boost has expired! You can buy more on the store!",
+        "koth-xp-continued": "XP Boost has been continued!",
+        "koth-money-continued": "Money Boost has been continued!"
+      }
     }
   }
-}

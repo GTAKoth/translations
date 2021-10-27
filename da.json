@@ -1,0 +1,127 @@
+{
+    "core": {
+      "set-lang": "Success! Sprog er nu opdateret.",
+      "no-perms": "Du har ikke adgang til denne kommando!",
+      "unknown-command": "Ukendt kommando, prøv igen!",
+      "invalid-syntax": "Forkert parameter, brug venligst:",
+      "tebex": {
+        "tebex-no-vip": "Du skal have VIP+ for at bruge denne kommando!",
+        "tebex-no-mvp": "Du skal have MVP+ for at bruge denne kommando!",
+        "tebex-no-perms": "Du har ikke adgang til at bruge denne donator fordel!",
+        "weapon-skin": "Dit våben tint/skin er blevet tilføjet!"
+      },
+      "announcements": {
+        "announce1": "Du kan joine vores discord for support, fede fordele og memes! https://cosmicv.net/koth",
+        "announce2": "Har du et problem med en spiller på vores server? Brug /report {id} {grund} og staff vil kigge på det!",
+        "announce3": "Vidste du at du kan stemme på bane og gamemodes? https://cosmicv.net/koth",
+        "announce4": "Interesseret i at støtte fællesskabets udvikling? Kig i vores butik: https://store.cosmicv.net",
+        "announce5": "Donators kan personliggøre deres våben skins, karakterer og mere! https://store.cosmicv.net",
+        "announce6": "VIP+ brugere kan personliggøre deres tilslut/forlad beskeder på serveren! https://store.cosmicv.net",
+        "announce7": "Keder du dig i den nuværende gamemode? Brug /lobby for at tjekke vores andre gamemodes!"
+      },
+      "basic": {
+        "forwards": "Fremad",
+        "backwards": "Tilbage",
+        "left": "Venstre",
+        "right": "Højre",
+        "dead": "Død",
+        "no-money": "Ingen penge",
+        "insufficient-funds": "Ikke nok penge",
+        "yes": "Ja",
+        "no": "Nej",
+        "confirm": "Bekræft",
+        "deny": "Afvis",
+        "primary": "Primær",
+        "secondary": "Sekundær",
+        "special": "Speciel",
+        "throwable": "Kasteskyts",
+        "killstreaks": "Killstreaks",
+        "shop": "Butik",
+        "died": "Døde"
+      }
+    },
+    "koth": {
+      "koth-description": "Kæmp til døden i en multiplayer gamemode. Tjen XP og Penge ved at dræbe og hjælpe dine holdkammerater med at forbedre jeres udstyr!",
+      "team-selector": "VÆLG HOLD",
+      "team-full": "Holdet er pt. fuld eller ubalanceret. Vælg et andet hold i stedet for!",
+      "shop": {
+        "enter-shop": "Tryk E for at tilgå butikken",
+        "enter-preset": "Tryk G for at åbne loadouts",
+        "repair-cost": "Tryk E for at fikse\nPris: $",
+        "restock-cost": "Tryk E for at genopfylde ammo\nPris: $",
+        "no-nearby-vehicle": "Intet køretøj i nærheden!",
+        "half-full": "Dit køretøj er over halvt fuld!",
+        "not-in-weapon-veh": "Du har ikke været i\net væbnetkøretøj",
+        "veh-no-damage": "Køretøjet er ikke skadet!",
+        "not-in-veh": "Du har ikke været i et køretøj!",
+        "weapon-shop-toast": "VÅBENBUTIK",
+        "vehicle-shop-toast": "BILBUTIK",
+        "ammo-restock-toast": "GENOPFYLD AMMO",
+        "vehicle-repair-toast": "FIX KØRETØJ",
+        "repair-toast": "TRYK E FOR AT FIXE",
+        "revive-toast": "TRYK E FOR AT GENOPLIVE",
+        "you-can-not-exit-here": "Du kan ikke forlade dit køretøj her, kør frem!"
+      },
+      "events": {
+        "friendlyfire": "friendly fire",
+        "driver-assist": "driver assist",
+        "assist": "assist",
+        "kill-streak": "kill streak",
+        "vehicle-destroy": "vehicle destroy",
+        "headshot": "headshot",
+        "kill": "kill",
+        "longshot": "langskud",
+        "hipfire": "hipfire",
+        "reload-kill": "reload kill",
+        "transport": "transport",
+        "playing": "playing the game!",
+        "defending-obj": "defending the objective!",
+        "attacking-obj": "attacking objective!",
+        "healing": "healing",
+        "team-healer": "team healer",
+        "ammo-restock": "ammo restock",
+        "ammo-refill": "ammo refill",
+        "team-supply": "team supply",
+        "team-revive": "team-mate revive",
+        "vehicle-repair": "vehicle repair"
+      },
+      "presets": {
+        "preset-safezone": "Du skal være i din safezone for at bruge denne kommando!",
+        "preset-name-in-use": "Navnet er optaget, prøv et andet!",
+        "preset-buy-more-slots": "Du har nået det maksimale antal loadouts, opgrader din rank på https://store.cosmicv.net for mere information!",
+        "preset-deleted": "Dit loadout blev slettet!",
+        "preset-renamed": "Navnet på dit loadout blev ændret!",
+        "preset-help": "Loadout hjælp",
+        "preset-none": "Du har ikke lavet nogle loadouts. Lej/køb nogle genstande og gem det ved at bruge /preset save",
+        "preset-no-cash": "Du har ikke nok penge til at leje dette loadout!",
+        "preset-created": "Du oprettede et loadout, kaldet:",
+        "preset-error": "Fejl ved oprettelse af loadout, kontakt venligst en admin."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Detoner sprængstoffer",
+        "rc-xd-out-of-range": "ADVARSEL\nUden for rækkevide, svagt signal.\nMax: ("
+      },
+      "airstrike": {
+        "airstrike-instruct": "FLYT GPS LOKATION\nFOR AT SKIFTE MÅL",
+        "airstrike-out-of-range": "LUFTANGREB UDEN FOR RÆKKEVIDE",
+        "airstrike": "LUFTANGREB"
+      },
+      "attachments": {
+        "attachments-in-spawn": "Du kan kun tilføje våbenudstyr i spawn!",
+        "attachments-no-weapon": "Dette våben har ikke noget udstyr klar endnu!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Du har ikke nok prestige mønter til at tilgå butikken!",
+        "not-100": "Du skal være level 100+ for at prestige!",
+        "need-10k": "Du skal bruge mindst $10,000 for at prestige."
+      },
+      "boosters": {
+        "koth-boost-added": "Boost blev tilføjet til dit inventory",
+        "koth-boost-active": "Du har allerede sådan en booster aktiv!",
+        "koth-boost-started": "Boost aktiveret!",
+        "koth-boost-expired": "Din boost udløb! Du kan købe flere i butikken!",
+        "koth-xp-continued": "XP Boost forsætter!",
+        "koth-money-continued": "Penge Boost forsætter!"
+      }
+    }
+  }

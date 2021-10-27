@@ -1,0 +1,127 @@
+{
+    "core": {
+      "set-lang": "Valmis! Kielesi on päivitetty.",
+      "no-perms": "Sinulla ei ole pääsyä tähän komentoon!",
+      "unknown-command": "Tuntematon komento, yritä uudelleen!",
+      "invalid-syntax": "Virheellinen syntakse, käytä:",
+      "tebex": {
+        "tebex-no-vip": "Sinulla on oltava VIP +, jotta voit käyttää tätä komentoa!",
+        "tebex-no-mvp": "Sinulla on oltava MVP+, jotta voit käyttää tätä komentoa!",
+        "tebex-no-perms": "Sinulla ei ole lupaa käyttää tätä lahjoittajan etua!",
+        "weapon-skin": "Aseesi sävy / iho on asetettu!"
+      },
+      "announcements": {
+        "announce1": "Voit liittyä Discordiimme saadaksesi tukea, hienoja etuja ja meemejä! https://cosmicv.net/koth",
+        "announce2": "Onko sinulla ongelmia palvelimellamme olevan pelaajan kanssa? Käytä /report {id} {syy} henkilökunnalle tarkistettavaksi!",
+        "announce3": "Tiesitkö, että voit äänestää karttoja ja pelimuotoja Discordissamme? https://cosmicv.net/koth",
+        "announce4": "Oletko kiinnostunut tukemaan yhteisön kehitystä? Katso kaupastamme: https://store.cosmicv.net",
+        "announce5": "Lahjoittajat pystyvät mukauttamaan aseensa ulkonaköä, pelaajamalliansa ja paljon muuta! https://store.cosmicv.net",
+        "announce6": "VIP + käyttäjät voivat mukauttaa liittymis/poistumisviestejä palvelimelta! https://store.cosmicv.net",
+        "announce7": "Etkö enää halua pelata minipeliäsi? Käytä /lobby näkemään useita muita pelimuotojamme!"
+      },
+      "basic": {
+        "forwards": "Eteenpäin",
+        "backwards": "Taaksepäin",
+        "left": "Vasen",
+        "right": "Oikea",
+        "dead": "Kuollut",
+        "no-money": "Ei rahaa",
+        "insufficient-funds": "Riittämättömät varat",
+        "yes": "Kyllä",
+        "no": "Ei",
+        "confirm": "Varmista",
+        "deny": "Kiellä",
+        "primary": "Ensisijainen",
+        "secondary": "Toissijainen",
+        "special": "Erikois",
+        "throwable": "Heitettävä",
+        "killstreaks": "Tappoputket",
+        "shop": "Kauppa",
+        "died": "Kuollut"
+      }
+    },
+    "koth": {
+      "koth-description": "Taistele kuolemaan moninpeli pelimuodossa. Ansaitse XP:tä ja rahaa tapoista ja auttamalla joukkuetovereitasi parantamaan arsenaaliasi!",
+      "team-selector": "TIIMI VALITSIJA",
+      "team-full": "Tämä joukkue on tällä hetkellä täynnä tai epätasapainossa. Valitse toinen joukkue!",
+      "shop": {
+        "enter-shop": "Paina E päästäksesi kauppaan",
+        "enter-preset": "Paina G avataaksesi loadoutit",
+        "repair-cost": "Paina E korjataaksesi\nCost: $",
+        "restock-cost": "Paina E varastoidaksesi ammukset uudelleen\nCost: $",
+        "no-nearby-vehicle": "Ei ajoneuvoa lähettyvillä!",
+        "half-full": "Ajoneuvosi on yli puoliksi täynnä!",
+        "not-in-weapon-veh": "Et ole ollut aseistetussa ajoneuvossa!",
+        "veh-no-damage": "Tämä ajoneuvo ei ole vahingoittunut!",
+        "not-in-veh": "Et ole ollut ajoneuvvossa!",
+        "weapon-shop-toast": "ASE KAUPPA",
+        "vehicle-shop-toast": "AJONEUVO KAUPPA",
+        "ammo-restock-toast": "AMMUS VARASTOINTI",
+        "vehicle-repair-toast": "AJONEUVON KORJAUS",
+        "repair-toast": "PAINA E KORJATAKSESI",
+        "revive-toast": "PAINA E ELVYTTÄÄKSESI",
+        "you-can-not-exit-here": "Et voi poistua ajoneuvostasi täällä, siirry eteenpäin!"
+      },
+      "events": {
+        "friendlyfire": "ystävällinen tuli",
+        "driver-assist": "kuljettajan avustus",
+        "assist": "avustus",
+        "kill-streak": "tappo putki",
+        "vehicle-destroy": "ajoneuvon tuhoaminen",
+        "headshot": "pääosuma",
+        "kill": "tappo",
+        "longshot": "pitkä laukaus",
+        "hipfire": "lonkalta ampuminen",
+        "reload-kill": "lataus tappo",
+        "transport": "kuljetus",
+        "playing": "Pelin Pelaaminen!",
+        "defending-obj": "kohteen puolustaminen!",
+        "attacking-obj": "kohteen hyökkääminen!",
+        "healing": "parantuminen",
+        "team-healer": "joukkue parantaja",
+        "ammo-restock": "ammus varastointi",
+        "ammo-refill": "ammusten täyttö",
+        "team-supply": "tiimitarjonta",
+        "team-revive": "tiimiläis elvytys",
+        "vehicle-repair": "ajoneuvon korjaus"
+      },
+      "presets": {
+        "preset-safezone": "Sinun on oltava suojavyöhykkeellä käyttääksesi tätä komentoa!",
+        "preset-name-in-use": "Tämä nimi on jo käytössä, kokeile toista!",
+        "preset-buy-more-slots": "Olet jo saavuttanut enimmäispaikat, päivitä sijoitustasi osoitteessa https://store.cosmicv.net saadaksesi lisää",
+        "preset-deleted": "Esiasetus on poistettu!",
+        "preset-renamed": "Esiasetus onnistuuneesti nimetty uudelleen",
+        "preset-help": "Esiasetus tuki",
+        "preset-none": "Esiasetuksia ei ole tehty. Vuokraa/osta joitain tuotteita ja tallenna sitten käyttämällä /preset save",
+        "preset-no-cash": "Sinulla ei ole tarpeeksi rahaa vuokrata tätä esiasetusta!",
+        "preset-created": "Onnistuneesti luotu esiasetus nimeltä:",
+        "preset-error": "Virhe esiasetuksen luomisessa. Ota yhteyttä valvojaan."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Räjäytä räjähteet",
+        "rc-xd-out-of-range": "WARNING\nKantaman ulkopuolella, signaali alhainen.\nMax: ("
+      },
+      "airstrike": {
+        "airstrike-instruct": "VAIHDA GPS SIJAINTIA\nVAIHTAAKSESI KOHDETTA",
+        "airstrike-out-of-range": "ILMAISKU KANTAMAN ULKOPUOLELLA",
+        "airstrike": "ILMAISKU"
+      },
+      "attachments": {
+        "attachments-in-spawn": "Voit vain lisätä lisäosia spawnillasi!",
+        "attachments-no-weapon": "Tällä aseella ei ole yhtäkään lisäosaa valmiina vielä!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Sinullä ei ole tarpeeksi Prestige pisteitä päästäksesi Prestigelle",
+        "not-100": "Sinun on oltava vähintään 100 tasoinen Prestigen saavuttamiseksi!",
+        "need-10k": "Tarvitset vähintään $10,000 ollaksesi Prestige"
+      },
+      "boosters": {
+        "koth-boost-added": "Tehostus on lisätty inventaarioosi",
+        "koth-boost-active": "Sinulla on jo tämänkaltainen tehoste käytössä!",
+        "koth-boost-started": "Tehoste on aktivoitu!",
+        "koth-boost-expired": "Tehostuksesi on vanhentunut! Voit ostaa lisää kaupasta!",
+        "koth-xp-continued": "XP tehostetta on jatkettu!",
+        "koth-money-continued": "Raha tehostetta on jatkettu"
+      }
+    }
+}

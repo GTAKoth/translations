@@ -1,0 +1,127 @@
+{
+    "core": {
+      "set-lang": "Félicitations ! La langue a été modifié.",
+      "no-perms": "Vous n’avez pas accès à cette commande !",
+      "unknown-command": "Commande inconnu, réessayez !",
+      "invalid-syntax": "Syntaxe incorrecte, veuillez utiliser :",
+      "tebex": {
+        "tebex-no-vip": "Vous devez être VIP+ pour utiliser cette commande !",
+        "tebex-no-mvp": " Vous devez être MVP+ pour utiliser cette commande !",
+        "tebex-no-perms": "Vous n’avez pas le droit d’utiliser cette avantage réservé aux donateurs !",
+        "weapon-skin": "Votre skin d’arme a bien été appliqué !"
+      },
+      "announcements": [
+        "Rejoignez notre discord pour nous soutenir, avoir des avantages et des partagez des memes ! https://cosmicv.net/koth",
+        "Un souci avec un joueur sur notre serveur ? Utilisez /report {id} {raison} pour que le staff s’en occupe !",
+        "Saviez-vous que vous pouvez voter pour les cartes et modes de jeux sur notre discord ? https://cosmicv.net/koth",
+        "Vous souhaitez soutenir l’équipe de développement ? Jetez un coup d’œil à notre boutique : https://store.cosmicv.net",
+        "Les donateurs ont la possibilité de custom leurs skin d’arme, l’apparence de leur joueur et bien plus encore ! https://store.cosmicv.net",
+        "Les VIP+ peuvent personnaliser leurs messages lorsqu’ils rejoignent/quitte le serveur ! https://store.comsicv.net",
+        "Marre du mini jeu actuelle ? Utilisez /lobby pour découvrir pleins d’autres modes de jeux ! "
+      ],
+      "basic": {
+        "forwards": "Avancer",
+        "backwards": "Reculer",
+        "left": "Gauche",
+        "right": "Droite",
+        "dead": "Mort",
+        "no-money": "Pas d’argent",
+        "insufficient-funds": "Fonds insuffisant",
+        "yes": "Oui",
+        "no": "Non",
+        "confirm": "Confirmer",
+        "deny": "Refuser",
+        "primary": "Primaire",
+        "secondary": "Secondaire",
+        "special": "Spécial",
+        "throwable": "Jetables",
+        "killstreaks": "Killstreaks",
+        "shop": "Boutique",
+        "died": "a été tuer"
+      }
+    },
+    "koth": {
+      "description": "Combattez jusqu’à la mort dans un mode de jeu multijoueur. Gagnez de l’XP et de l’Argent en tuant vos ennemies et en aidant vos allier pour améliorer votre arsenal !",
+      "team-selector": "Sélecteur d’équipe",
+      "team-full": "Cette équipe est actuellement pleine ou déséquilibrée. Choisissez plutôt une autre équipe !",
+      "shop": {
+        "enter-shop": "APPUYEZ SUR E POUR OUVRIR LA BOUTIQUE",
+        "enter-preset": "APPUYEZ SUR G POUR ACCEDER AUX EQUIPEMENTS",
+        "repair-cost": "APPUYEZ SUR E POUR REPARER\nPRIX : $",
+        "restock-cost": "APPUYEZ SUR E POUR RESTOCK SES MUNITIONS\nPRIX : $",
+        "no-nearby-vehicle": "AUCUN VÉHICULE PROCHE !",
+        "half-full": "VOTRE VÉHICULE EST\nPLUS QU’À MOTIÉ PLEIN !",
+        "not-in-weapon-veh": "VOUS N’ÊTES PAS DANS\nUN VÉHICULE ARMÉ",
+        "no-damage": "CE VÉHICULE N'EST PAS ENDOMMAGÉ !",
+        "not-in-veh": "VOUS N’ÊTES PAS DANS\nUN VÉHICULE",
+        "weapon-shop-toast": "BOUTIQUE D’ARME",
+        "vehicle-shop-toast": "BOUTIQUE DE VÉHICULE",
+        "ammo-restock-toast": "RESTOCK DE MUNITIONS",
+        "vehicle-repair-toast": "RÉPARATEUR DE VÉHCULE",
+        "repair-toast": "APPUYEZ SUR E POUR RÉPARER",
+        "revive-toast": "APPUYER SUR E POUR REVIVE",
+        "you-can-not-exit-here": "Vous ne pouvez pas descendre de votre véhilcule ici, avancez!"
+      },
+      "events": {
+        "friendlyfire": "tir allier",
+        "driver-assist": "assist au conducteur",
+        "assist": "assist",
+        "kill-streak": "killstreak",
+        "vehicle-destroy": "destruction véhicule",
+        "headshot": "tir à la tête",
+        "kill": "kill",
+        "longshot": "tir longue portée ",
+        "hipfire": "hipfire",
+        "reload-kill": "kill en rechargeant",
+        "transport": "transport",
+        "playing": "Jouer au jeu !",
+        "defending-obj": "défense de l’objectif!",
+        "attacking-obj": "attaque de l’objectif!",
+        "healing": "healing",
+        "team-healer": "healer d’équipe",
+        "ammo-restock": "restock de munitions",
+        "ammo-refill": "recharge de munitions",
+        "team-supply": "fournisseur d’équipe",
+        "team-revive": "revive d’équipier",
+        "vehicle-repair": "réparation de véhicule"
+      },
+      "presets": {
+        "preset-safezone": "Vous devez être dans la zone safe pour utiliser cette commande !",
+        "preset-name-in-use": "Ce nom est déjà utilisez par quelqu’un, veuillez en choisir un autre !",
+        "preset-buy-more-slots": "Vous avez atteint votre nombre de slots maximum, améliorer votre grade sur https://store.cosmicv.net pour plus de slots !",
+        "preset-deleted": "Équipement supprimer avec succès !",
+        "preset-renamed": "Équipement renommer avec succès !",
+        "preset-help": "Aide pour Équipements",
+        "preset-none": "Aucun équipements n’a été créer. Louez/achetez des objets et enregistrer-les en utilisant /preset save.",
+        "preset-no-cash": "Vous n’avez pas assez d’argent pour louer cette équipement !",
+        "preset-created": "Équipement crée avec succès nommé :",
+        "preset-error": "Erreur lors de la création de l’équipement, veuillez contactez un administrateur."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Détonner les explosifs",
+        "rc-xd-out-of-range": "ATTENTION\nHors porté, signal faible.\nMax: ("
+      },
+      "airstrike": {
+        "instruct": "DÉPLACEZ VOTRE LOCALISATION GPS\nPOUR CHANGE DE CIBLE",
+        "out-of-range": "FRAPPE AÉRIENNE HORS PORTÉE",
+        "airstrike": "FRAPPE AÉRIENNE"
+      },
+      "attachments": {
+        "attachments-in-spawn": "Vous pouvez uniquement appliquer les accessoires en étant au spawn !",
+        "attachments-no-weapon": "Cette arme n'a aucun accessoire disponible pour le moment !"
+      },
+      "prestige": {
+        "no-prestige-coins": "Vous n'avez pas assez de pièces de prestige pour accéder à la boutique !",
+        "not-100": "Vous devez être level 100+ pour être prestige !",
+        "need-10k": "Vous avez besoin d'au moins $10,000 pour être prestige."
+      },
+      "boosters": {
+        "koth-boost-added": "Votre boost a été ajouter à votre inventaire",
+        "koth-boost-active": "Vous avez déjà un booster de ce type actif !",
+        "koth-boost-started": "Votre boost a été activé !",
+        "koth-boost-expired": "Votre boost a expiré ! Vous pouvez en achter plus dans la boutique !",
+        "koth-xp-continued": "Votre boost XP a été prolongé !",
+        "koth-money-continued": "Votre boost d'argent a été prolongé !"
+      }
+    }
+  }

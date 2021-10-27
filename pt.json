@@ -1,0 +1,127 @@
+{
+    "core": {
+      "set-lang": "Sucesso! O seu idioma foi atualizado.",
+      "no-perms": "Você não tem acesso a este comando!",
+      "unknown-command": "Comando desconhecido, tente novamente!",
+      "invalid-syntax": "Sintaxe invalido, por favor utilize:",
+      "tebex": {
+        "tebex-no-vip": "Você precisa ter VIP+ para usar este comando!",
+        "tebex-no-mvp": "Você precisa ter MVP+ para usar este comando!",
+        "tebex-no-perms": "Você não tem permissão para usar esta vantagem de doador!",
+        "weapon-skin": "A tinta/skin para a sua arma foi aplicada!"
+      },
+      "announcements": {
+        "announce1": "Você pode se juntar ao nosso discord para suporte, vantagens incríveis e memes! https://cosmicv.net/koth",
+        "announce2": "Tem um problema com um jogador no nosso servidor? Utilize /report {id} {razão} para a staff rever!",
+        "announce3": "Você sabia que pode votar em mapas e modos de jogo no nosso discord? https://cosmicv.net/koth",
+        "announce4": "Interessado em apoiar o desenvolvimento da comunidade? Visite a nossa loja: https://store.cosmicv.net",
+        "announce5": "Doadores podem customizar skins da sua arma, modelo de jogador e mais! https://store.cosmicv.net",
+        "announce6": "Utilizadores de VIP+ podem customizar as mensagens de entrada/saida do servidor! https://store.comsicv.net",
+        "announce7": "Não se esta divertindo neste minigame? Utilize /lobby para ver a variadade de outros minigames!"
+      },
+      "basic": {
+        "forwards": "Avançar",
+        "backwards": "Recuar",
+        "left": "Esquerdo",
+        "right": "Direito",
+        "dead": "Morto",
+        "no-money": "Sem Dinheiro",
+        "insufficient-funds": "Fundos insuficientes",
+        "yes": "Sim",
+        "no": "Não",
+        "confirm": "Confirmar",
+        "deny": "Negar",
+        "primary": "Primario",
+        "secondary": "Secundária",
+        "special": "Especial",
+        "throwable": "Lançável",
+        "killstreaks": "Combo de Kills",
+        "shop": "Loja",
+        "died": "Morreu"
+      }
+    },
+    "koth": {
+      "koth-description": "Lute ate a morte num modo de jogo multiplayer. Ganhe XP e Dinheiro matando e ajudando a sua equipa para melhorar o seu arsenal!",
+      "team-selector": "SELETOR DE EQUIPE",
+      "team-full": "Esta equipa esta cheia ou desequilibrada neste momento. Escolha outra equipa!",
+      "shop": {
+        "enter-shop": "Aperte E para entrar na loja",
+        "enter-preset": "Aperte G para abrir o arsenal",
+        "repair-cost": "Aperte E para reparar\nCusta: $",
+        "restock-cost": "Aperte E para reabastecer munição\nCusta: $",
+        "no-nearby-vehicle": "Nenhum veiculo por perto!",
+        "half-full": "Seu veiculo esta mais de metade!",
+        "not-in-weapon-veh": "voce não esteve\nnum veiculo armado",
+        "veh-no-damage": "Este veiculo não se encotra danificado!",
+        "not-in-veh": "Voce não este esteve\nNum veiculo",
+        "weapon-shop-toast": "LOJA DE ARMAMENTO",
+        "vehicle-shop-toast": "LOJA DE VEICULO",
+        "ammo-restock-toast": "REABASTECER MUNIÇÃO",
+        "vehicle-repair-toast": "REPARAR VEICULO",
+        "repair-toast": "APERTE E PARA REPARAR",
+        "revive-toast": "APERTE E PARA REVIVER",
+        "you-can-not-exit-here": "Não pode sair do veiculo aqui, avance!"
+      },
+      "events": {
+        "friendlyfire": "dano aliado",
+        "driver-assist": "assistência de condutor",
+        "assist": "assistência",
+        "kill-streak": "combo de kills",
+        "vehicle-destroy": "veiculo destruido",
+        "headshot": "tiro na cabeça",
+        "kill": "morte",
+        "longshot": "tiro longo",
+        "hipfire": "tiro longo",
+        "reload-kill": "kill recarregando",
+        "transport": "transporte",
+        "playing": "jogando o jogo!",
+        "defending-obj": "defendendo o objectivo!",
+        "attacking-obj": "atacando o objectivo!",
+        "healing": "curando",
+        "team-healer": "curando um aliado",
+        "ammo-restock": "reabastecer munição",
+        "ammo-refill": "encher munição",
+        "team-supply": "fornecer a equipa",
+        "team-revive": "aliado revivido",
+        "vehicle-repair": "veiculo reparado"
+      },
+      "presets": {
+        "preset-safezone": "Voce precisa de estar na sua zona segura para usaar este comando!",
+        "preset-name-in-use": "Este nome ja existe, por favor tente outro!",
+        "preset-buy-more-slots": "Voce ja alcançou o maximo de slots, melhore o seu rank em https://store.cosmicv.net for more!",
+        "preset-deleted": "Deletou o seu preset com sucesso!",
+        "preset-renamed": "Preset renomeado com sucesso!",
+        "preset-help": "Ajuda Preset",
+        "preset-none": "Nenhum preset foi criado. Alugue/compre alguns items e guarde usando /preset save",
+        "preset-no-cash": "Voce não tem dinheiro suficiente para alugar este preset!",
+        "preset-created": "Sucesso, criou um preset chamado:",
+        "preset-error": "Erro criando preset, por favor contactar um admistrador"
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Detonar Explosivos",
+        "rc-xd-out-of-range": "ATENÇÃO\nFora de alcance, sinal baixo.\nMaximo: ("
+      },
+      "airstrike": {
+        "airstrike-instruct": "MOVER LOCALIZAÇÃO GPS\nPARA MOVER O ALVO",
+        "airstrike-out-of-range": "ATAQUE AEREO FORA DE ALCANCE",
+        "airstrike": "ATAQUE AEREO"
+      },
+      "attachments": {
+        "attachments-in-spawn": "Voce so pode aplicar o acessório no seu spawn ",
+        "attachments-no-weapon": "Esta arma não tem acessórios preparadas no momento!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Voce não tem moedas de prestige para acessar a loja!",
+        "not-100": "Voce precisa ser nivel 100+ para ter prestige",
+        "need-10k": "Voce precisa no minimo $10,000 para ter prestige ."
+      },
+      "boosters": {
+        "koth-boost-added": "Boost foi adicionado no seu inventario",
+        "koth-boost-active": "Voce ja tem um booster deste tipo ativo!",
+        "koth-boost-started": "Boost foi ativado!",
+        "koth-boost-expired": "Seu Boost expirou! Voce pode comprar mais na loja!",
+        "koth-xp-continued": "XP Boost foi continuado!",
+        "koth-money-continued": "Boost de dinheiro foi continuado!"
+      }
+    }
+  }
