@@ -1,0 +1,132 @@
+{
+    "core": {
+      "set-lang": "Deine Sprache wurde erfolgreich angepasst!",
+      "no-perms": "Du hast keine Berechtigung für diesen Befehl!",
+      "unknown-command": "Unbekannter Befehl! Bitte versuche es erneut.",
+      "invalid-syntax": "Ungültige Syntax, bitte nutze:",
+      "game-full": "Dieser Spielmodus ist derzeit voll, bitte wähle einen anderen Spielmodus!",
+      "tebex": {
+        "tebex-no-vip": "Du musst VIP+ haben, um diesen Befehl zu verwenden!",
+        "tebex-no-mvp": "Du musst MVP+ haben, um diesen Befehl zu verwenden!",
+        "tebex-no-perms": "Du hast keine Erlaubnis, diesen Spendervorteil zu nutzen!",
+        "weapon-skin": "Dein Waffen Tint/Skin wurde angepasst!"
+      },
+      "announcements": {
+        "announce1": "Du kannst unserem Discord für Unterstützung, coole Vorteile und Memes beitreten! https://cosmicv.net/koth",
+        "announce2": "Du hast ein Problem mit einem Spieler auf unserem Server? Benutze /report {id} {reason}, damit unser Team es überprüfen kann!",
+        "announce3": "Wusstet du, dass du auf unserem Discord für Maps und Gamemodes abstimmen kannst? https://cosmicv.net/koth",
+        "announce4": "Du willst die Entwicklung der Community unterstützen? Schau bei unserem Store vorbei: https://store.cosmicv.net",
+        "announce5": "VIPs und MVPs können ihre Waffenskins individuell gestalten und mehr! https://store.cosmicv.net",
+        "announce6": "VIP+ Nutzer können ihre Join/Leave Benachrichtigungen individuell gestalten! https://store.comsicv.net",
+        "announce7": "Keine Lust mehr auf das Minispiel, in dem du gerade bist? Mit /lobby kannst du eine Vielzahl anderer Spielmodi ausprobieren!"
+      },
+      "basic": {
+        "forwards": "Weiter",
+        "backwards": "Zurück",
+        "left": "Links",
+        "right": "Rechts",
+        "dead": "tot",
+        "no-money": "Kein Geld",
+        "insufficient-funds": "Unzureichendes Guthaben",
+        "yes": "Ja",
+        "no": "Nein",
+        "confirm": "Bestätigen",
+        "deny": "Ablehnen",
+        "primary": "Primär",
+        "secondary": "Sekundär",
+        "special": "Spezial",
+        "throwable": "Werfbares",
+        "killstreaks": "Killserien",
+        "shop": "Shop",
+        "died": "gestorben"
+      }
+    },
+    "koth": {
+      "koth-description": "Kämpfe bis zum Tod in einem Mehrspieler-Modus. Erhalte XP und Geld für Kills und helfe deinen Teamkameraden, um dein Arsenal zu verbessern!",
+      "team-selector": "TEAM AUSWAHL",
+      "team-full": "Dieses Team ist derzeit voll oder unausgeglichen. Wähle stattdessen ein anderes Team!",
+      "shop": {
+        "enter-shop": "Nutze E um den Shop zu öffnen",
+        "enter-preset": "Nutze G um deine Loadouts zu öffnen",
+        "repair-cost": "Nutze E zum reparieren!\nKosten: $",
+        "restock-cost": "Nutze E um Munition aufzufüllen!\nKosten: $",
+        "no-nearby-vehicle": "Kein Fahrzeug in der Nähe!",
+        "half-full": "Dein Fahrzeug ist mehr als halb voll!",
+        "not-in-weapon-veh": "Du bist in keinem\n bewaffneten Fahrzeug!",
+        "veh-no-damage": "Dieses Fahrzeug ist nicht beschädigt!",
+        "not-in-veh": "Du bist in keinem Fahrzeug!",
+        "weapon-shop-toast": "WAFFEN SHOP",
+        "vehicle-shop-toast": "FAHRZEUG SHOP",
+        "ammo-restock-toast": "MUNITION AUFFÜLLEN",
+        "vehicle-repair-toast": "FAHRZEUG REPARIEREN",
+        "repair-toast": "NUTZE E ZUM REPARIEREN",
+        "revive-toast": "NUTZE E ZUR WIEDERBELEBUNG",
+        "you-can-not-exit-here": "Du kannst hier nicht aussteigen, fahr weiter!"
+      },
+      "events": {
+        "friendlyfire": "Feindbeschuss",
+        "driver-assist": "Fahrer Assist",
+        "assist": "Assist",
+        "squad-assist": "Squad assist",
+        "kill-streak": "Killserie",
+        "vehicle-destroy": "Fahrzeug zerstört",
+        "headshot": "Headshot",
+        "kill": "Kill",
+        "longshot": "Longshot",
+        "hipfire": "Hüftschuss",
+        "reload-kill": "Reload Kill",
+        "transport": "Transport",
+        "playing": "Das Spiel spielen!",
+        "defending-obj": "Ziel wird verteidigt!",
+        "attacking-obj": "Ziel wird angegriffen!",
+        "healing": "Heilt",
+        "team-healer": "Team Heiler",
+        "squad-healer": "Squad Heiler",
+        "ammo-restock": "Munition aufstocken",
+        "ammo-refill": "Munition auffüllen",
+        "team-supply": "Team Versorgung",
+        "squad-supply": "Squad Versorgung",
+        "team-revive": "Team-Mitglied wiederbelebt",
+        "squad-revive": "Squad-Mitglied wiederbelebt",
+        "vehicle-repair": "Fahrzeug repariert"
+      },
+      "presets": {
+        "preset-safezone": "Du musst in deiner Sicherheitszone sein, um diesen Befehl zu verwenden!",
+        "preset-name-in-use": "Dieser Name wird bereits genutzt, versuche einen Anderen!",
+        "preset-buy-more-slots": "Du hast bereits die maximale Anzahl von Slots erreicht, upgrade deinen Rang auf https://store.cosmicv.net für weitere!",
+        "preset-deleted": "Preset erfolgreich gelöscht!",
+        "preset-renamed": "Preset erfolgreich umbenannt!",
+        "preset-help": "Preset Hilfe",
+        "preset-none": "Keine Presets. Kaufe/Miete einige Gegenstände und speichere danach mit /preset save",
+        "preset-no-cash": "Nicht genug Geld um dieses Preset zu mieten!",
+        "preset-created": "Erfolgreich ein Preset erstellt mit dem Namen:",
+        "preset-error": "Fehler beim Erstellen des Presets, bitte wende dich an einen Administrator."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Sprengstoff zünden",
+        "rc-xd-out-of-range": "WARNUNG!\n Außer Reichweite, Signal niedrig.\nMax: ("
+      },
+      "airstrike": {
+        "airstrike-instruct": "GPS-POSITION ÄNDERN\nUM ZIEL ZU WECHSELN",
+        "airstrike-out-of-range": "LUFTANGRIFF AUSSER REICHWEITE",
+        "airstrike": "LUFTANGRIFF"
+      },
+      "attachments": {
+        "attachments-in-spawn": "Du kannst Aufsätze nur an deinem Spawn anbringen!",
+        "attachments-no-weapon": "Diese Waffe hat noch keine Aufsätze!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Du hast nicht genug Prestige Coins, um den Shop zu nutzen!",
+        "not-100": "Du musst Level 100+ für Prestige sein!",
+        "need-10k": "Du brauchst für Prestige $10,000+"
+      },
+      "boosters": {
+        "koth-boost-added": "Boost wurde deinem Inventar hinzugefügt",
+        "koth-boost-active": "Du hast bereits einen Booster dieser Art aktiv!",
+        "koth-boost-started": "Booster aktiviert!",
+        "koth-boost-expired": "Dein Booster ist abgelaufen! Du kannst mehr im Store kaufen!",
+        "koth-xp-continued": "XP Booster verlängert!",
+        "koth-money-continued": "Money Booster verlängert!"
+      }
+    }
+  }
