@@ -1,0 +1,127 @@
+{
+    "core": {
+      "set-lang": "Limba a fost schimbată cu succes.",
+      "no-perms": "Nu ai permisiunea la aceasta comandă!",
+      "unknown-command": "Comandă invalidă, încearcă din nou!",
+      "invalid-syntax": "Invalid syntax, please use:",
+      "game-full": "This gamemode is currently full, please select another gamemode",
+      "tebex": {
+        "tebex-no-vip": "Trebuie să fii VIP+ ca să ai acces la aceasta comandă!",
+        "tebex-no-mvp": "Trebuie să fii MVP+ ca să poți folosi această comanda!",
+        "tebex-no-perms": "Nu ai permisiunea de a folosi acest perk !",
+        "weapon-skin": "Skin-ul armei a fost aplicată cu succes!"
+      },
+      "announcements": {
+        "announce1": "Te invităm în comunitatea noastră pe discord pentru a primi support, extra perks & memes! https://cosmicv.net/discord",
+        "announce2": "Ai o problemă cu un jucator de pe server? Tastează pe chat comanda: /report {id} {motivul pentru care îl reclami} iar staff-ul v-a analiza situatia!",
+        "announce3": "Interesat în  susținerea proiectului al comunității? Accesează shop-ul nostru: https://store.cosmicv.net",",
+        "announce4": "Donatorii au acces la customizarea skin-urilor, caractere  si multe altele!  https://store.cosmicv.net",
+        "announce5": "Membrii VIP+ îșî pot personaliza mesajul join/leave de pe server!  https://store.comsicv.net",
+        "announce6": "Plictisit de gamemode? Foloseste comanda /lobby ca să accesezi alte gamemode-uri"
+      },
+      "basic": {
+        "forwards": "Înainte",
+        "backwards": "Înapoi",
+        "left": "Stânga",
+        "right": "Dreapta",
+        "dead": "Mort",
+        "no-money": "Fără fonduri",
+        "insufficient-funds": "Fonduri insuficiente",
+        "yes": "Da",
+        "no": "Nu",
+        "confirm": "Confirm",
+        "deny": "Anulez",
+        "primary": "Primar",
+        "secondary": "Secondar",
+        "special": "Special",
+        "throwable": "Throwable",
+        "killstreaks": "Killstreaks",
+        "shop": "Shop",
+        "died": "Mort"
+      }
+    },
+    "koth": {
+      "koth-description": "Luptă până la moarte, Câștigă bani & XP din kill-uri si ajută-ti aliații ca să-ți dezvolți arsenalul  ",
+      "team-selector": "TEAM SELECTOR",
+      "team-full": "Aceasta echipă are capacitatea maximă sau este dezechilibrată. Selectează altă echipă!",
+      "shop": {
+        "enter-shop": "Apasa E ca să accesezi shop-ul",
+        "enter-preset": "Apasa G ca sa deschizi loadouts",
+        "repair-cost": "Apasă E ca să repari\nCost: $",
+        "restock-cost": "Apasa E pentru muniție\nCost: $",
+        "no-nearby-vehicle": "Niciun vehicul in apropiere!",
+        "half-full": "Your vehicle is over half full!",
+        "not-in-weapon-veh": "Nu ai fost într-un vehicul armat!",
+        "veh-no-damage": "Acest vehicul nu este avariat!",
+        "not-in-veh": "Nu ai fost într-un vehicul!!",
+        "weapon-shop-toast": "MAGAZIN DE ARME",
+        "vehicle-shop-toast": "MAGAZIN DE VEHICULE",
+        "ammo-restock-toast": "AMMO RESTOCK",
+        "vehicle-repair-toast": "REPARARE VEHICUL",
+        "repair-toast": "APASA E CA SĂ REPARI",
+        "revive-toast": "APASA E PENTRU REVIVE",
+        "you-can-not-exit-here": "Nu poți iesi din vehicul. Mergi mai în față!"
+      },
+      "events": {
+        "friendlyfire": "friendly fire",
+        "driver-assist": "driver assist",
+        "assist": "assist",
+        "squad-assist": "squad assist",
+        "kill-streak": "kill streak",
+        "vehicle-destroy": "vehicul distrus",
+        "headshot": "headshot",
+        "kill": "kill",
+        "longshot": "longshot",
+        "hipfire": "hipfire",
+        "reload-kill": "reload kill",
+        "transport": "transport",
+        "playing": "playing the game!",
+        "defending-obj": "Apărarea obiectivului!",
+        "attacking-obj": "Atacarea obiectivului!",
+        "healing": "vindecare",
+        "team-healer": "vindecare echipa",
+        "squad-healer": "vindecare squad",
+        "ammo-restock": "ammo restock",
+        "ammo-refill": "ammo refill",
+        "team-supply": "team supply",
+        "squad-supply": "squad supply",
+        "team-revive": "team-mate revive",
+        "squad-revive": "squad-mate revive",
+        "vehicle-repair": "repararea vehicului"
+      },
+      "presets": {
+        "preset-safezone": "Trebuie să fii in Safezone ca să folosesti această comanda!",
+        "preset-name-in-use": "Acest nume este deja folosit. Incearca altul!",
+        "preset-buy-more-slots": "Ai atins limita slot-urilor, upgrade your rank at https://store.cosmicv.net for more!",
+        "preset-deleted": "Preset sters cu succes!",
+        "preset-renamed": "Numele preset-ului schimbat cu succes!",
+        "preset-help": "Preset Help",
+        "preset-none": "Niciun preset a fost făcut. Închiriază/Cumpără niște items, iar apoi salvează-l folosind /preset save",
+        "preset-no-cash": "Nu ai destule fonduri pentru închirierea acestui preset!",
+        "preset-created": "Succes! Preset-ul a fost creat cu numele:",
+        "preset-error": "Error creating preset, contactează un administrator."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Detonare Explozibil",
+        "rc-xd-out-of-range": "WARNING\nÎn afara razei de acțiune, semnal slab.\nMax: ("
+      },
+      },
+      "attachments": {
+        "attachments-in-spawn": "Poți monta atașamentele doar în spawn!",
+        "attachments-no-weapon": "Această armă nu are atașamente încă!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Nu ai destule coins ca să accesezi shop-ul!",
+        "not-100": "You need to be level 100+ to prestige!",
+        "need-10k": "You need at least $10,000 to prestige."
+      },
+      "boosters": {
+        "koth-boost-added": "Boost-ul a fost adăugat în inventarul tău",
+        "koth-boost-active": "Ai un booster de acest tip deja activ!",
+        "koth-boost-started": "Booster-ul a fost activat!",
+        "koth-boost-expired": "Booster-ul a expirat! Achizițonează mai multe pe shop!",
+        "koth-xp-continued": "Booster-ul XP va fii continuat!",
+        "koth-money-continued": "Booster-ul Money va fii continuat!"
+      }
+    }
+  }
