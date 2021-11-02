@@ -1,0 +1,126 @@
+{
+    "core": {
+      "set-lang": "Úspěch! Jazyk byl změněn.",
+      "no-perms": "Nemáš práva na používání tohoto příkazu!",
+      "unknown-command": "Neznámý příkaz, zadej ho znovu!",
+      "invalid-syntax": "Invalid syntax, použíj prosím:",
+      "game-full": "Tento herní mod je momentálně plný, vyber si prosím jiný",
+      "tebex": {
+        "tebex-no-vip": "Musíš být VIP+ aby jsi mohl použít tento příkaz!",
+        "tebex-no-mvp": "Musíš být MVP+ aby jsi mohl použít tento příkaz!",
+        "tebex-no-perms": "Nemáš práva aby jsi použil tento příkaž pro dárce!",
+        "weapon-skin": "Tvůj skin/vzhled byl aplikován na zbran!"
+      },
+      "announcements": {
+        "announce1": "Můžeš se připojit na náš discord pro podporu, pro hezké výhody a memes! https://cosmicv.net/koth",
+        "announce2": "Máš problém s nějakým hráčem? Použij /report {id} {důvod} a staff ho posoudí!",
+        "announce3": "Chceš podpořit rozvoj naší komunity? Podívej se na náš obchod: https://store.cosmicv.net",
+        "announce4": "VIP+ a MPV+ si mohou upravovat vzhled zbraní a mnohem více! https://store.cosmicv.net",
+        "announce5": "VIP+ hráčí si mohou upravovat jejich připojovací/odpojovací zprávu! https://store.comsicv.net",
+        "announce6": "Nebaví tě herní mod který jsi si vybral? Použij /lobby kde si můžeš vybrat jiné!"
+      },
+      "basic": {
+        "forwards": "Dopředu",
+        "backwards": "Dozadu",
+        "left": "Doleva",
+        "right": "Doprava",
+        "dead": "Mrtev",
+        "no-money": "Žádné peníze",
+        "insufficient-funds": "Neznámé prostředky",
+        "yes": "Ano",
+        "no": "Ne",
+        "confirm": "Potvrdit",
+        "deny": "Odmítnout",
+        "primary": "Primární",
+        "secondary": "Sekundární",
+        "special": "Speciální",
+        "throwable": "Házecí",
+        "killstreaks": "Killstreaks",
+        "shop": "Obchod",
+        "died": "Umřel"
+      }
+    },
+    "koth": {
+      "koth-description": "Fight to the death in a multiplayer gamemode. Gain XP and Money from kills and helping your team-mates to help improve your arsenal!",
+      "team-selector": "VÝBĚR TÝMU",
+      "team-full": "Tento tým je již plný. Vyber si jiný!",
+      "shop": {
+        "enter-shop": "Zmačkni E aby jsi otevřel obchod",
+        "enter-preset": "Zmáčkni G aby jsi si otevřel výběr loadout",
+        "repair-cost": "Press E to repair\nCost: $",
+        "restock-cost": "Zmáčkni E aby jsi doplnil náboje\nCost: $",
+        "no-nearby-vehicle": "Žádné vozidlo poblíž!",
+        "half-full": "Tvoje vozidle je z půlky plné!",
+        "not-in-weapon-veh": "Nejsi v ozbrojeném vozidle!",
+        "veh-no-damage": "Tohle vozidle není poškozené!",
+        "not-in-veh": "Nejsi ve vozidle!",
+        "weapon-shop-toast": "OBCHOD SE ZBRANĚMI",
+        "vehicle-shop-toast": "OBCHOD S AUTY",
+        "ammo-restock-toast": "DOPLNĚNÍ NÁBOJŮ",
+        "vehicle-repair-toast": "OPRAVA VOZIDLA",
+        "repair-toast": "ZMAČKNI E PRO OPRAVU",
+        "revive-toast": "ZMAČKNI E PRO OŽIVENÉ",
+        "you-can-not-exit-here": "Zde nemůžeš vystoupit z vozidla, zajed více dopředu!"
+      },
+      "events": {
+        "friendlyfire": "střelba do vlastních",
+        "driver-assist": "driver assist",
+        "assist": "assist",
+        "squad-assist": "squad assist",
+        "kill-streak": "kill streak",
+        "vehicle-destroy": "zničení vozidla",
+        "headshot": "headshot",
+        "kill": "zabití",
+        "longshot": "dlouhá střela",
+        "hipfire": "hipfire",
+        "reload-kill": "reload kill",
+        "transport": "transport",
+        "playing": "playing the game!",
+        "defending-obj": "Bránění objektivu!",
+        "attacking-obj": "Útočení na objektiv!",
+        "healing": "healing",
+        "team-healer": "team healer",
+        "squad-healer": "squad healer",
+        "ammo-restock": "ammo restock",
+        "ammo-refill": "ammo refill",
+        "team-supply": "team supply",
+        "squad-supply": "squad supply",
+        "team-revive": "team-mate revive",
+        "squad-revive": "squad-mate revive",
+        "vehicle-repair": "opravení vozidla"
+      },
+      "presets": {
+        "preset-safezone": "Musíš být na spawnu aby jsi použil tento příkaz!",
+        "preset-name-in-use": "Toto jméno už se používá, použij prosím jiné!",
+        "preset-buy-more-slots": "Dosáhl jsi maximum slotů, navštiv https://store.cosmicv.net pro více!",
+        "preset-deleted": "Preset úspěšně smazán!",
+        "preset-renamed": "Preset úspěšně přejmenován!",
+        "preset-help": "Preset Help",
+        "preset-none": "Zatím nemáš žádný preset. Zapujči/kup si nějaké předměty a ulož si je přes /preset save",
+        "preset-no-cash": "Nemáš dostatek peněz aby jsi zakoupil tento preset!",
+        "preset-created": "Úspěšně jsi vytvořil preset s jménem:",
+        "preset-error": "Vyskytla se chyba při vytváření presetu, prosím kontaktuj admina."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Odpálit nálož",
+        "rc-xd-out-of-range": "UPOZORNĚNÍ\nJsi z dosahu, signál je slabý.\nMax: ("
+      },
+      "attachments": {
+        "attachments-in-spawn": "Mužeš aplikovat vylepšení pouze na spawnu!",
+        "attachments-no-weapon": "Na tuhle zbran nemužeš dát žádné vylepšení!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Nemáš dost prestiege mincí aby jsi se dostal do obchodu!",
+        "not-100": "Musíš mít level 100+ aby jsi získal prestige status!",
+        "need-10k": "Potřebuješ nejméně $10,000 aby jsi získal prestige status."
+      },
+      "boosters": {
+        "koth-boost-added": "Boost byl přidán do tvého inventáře",
+        "koth-boost-active": "Již máš boost v tvém inventáři!",
+        "koth-boost-started": "Boost byl aktivován!",
+        "koth-boost-expired": "Boost expiroval! Mužeš si koupit další v našem obchode!",
+        "koth-xp-continued": "XP Boost byl prodloužen!",
+        "koth-money-continued": "Money Boost byl prodloužen!"
+      }
+    }
+  }
