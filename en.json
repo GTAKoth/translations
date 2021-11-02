@@ -14,11 +14,10 @@
       "announcements": {
         "announce1": "You can join our discord for support, cool perks and memes! https://cosmicv.net/koth",
         "announce2": "Have a problem with a player on our server? Use /report {id} {reason} for staff to review!",
-        "announce3": "Did you know you can vote for maps and gamemodes on our discord? https://cosmicv.net/koth",
-        "announce4": "Interested in supporting the community development? Look at our store: https://store.cosmicv.net",
-        "announce5": "VIPs and MVPs are able to cusomize their weapon skins and more! https://store.cosmicv.net",
-        "announce6": "VIP+ users can customise their join/leave messages from the server! https://store.comsicv.net",
-        "announce7": "Not fancy playing the minigame your in anymore? Use /lobby to checkout a variety of other gamemodes!"
+        "announce3": "Interested in supporting the community development? Look at our store: https://store.cosmicv.net",
+        "announce4": "VIPs and MVPs are able to cusomize their weapon skins and more! https://store.cosmicv.net",
+        "announce5": "VIP+ users can customise their join/leave messages from the server! https://store.comsicv.net",
+        "announce6": "Not fancy playing the minigame your in anymore? Use /lobby to checkout a variety of other gamemodes!"
       },
       "basic": {
         "forwards": "Forward",
@@ -107,11 +106,6 @@
       "rc-xd": {
         "rc-xd-detonate": "Detonate Explosives",
         "rc-xd-out-of-range": "WARNING\nOut of range, signal low.\nMax: ("
-      },
-      "airstrike": {
-        "airstrike-instruct": "MOVE GPS LOCATION\nTO CHANGE TARGET",
-        "airstrike-out-of-range": "AIRSTRIKE OUT OF RANGE",
-        "airstrike": "AIRSTRIKE"
       },
       "attachments": {
         "attachments-in-spawn": "You can only apply attachments while in your spawn!",
