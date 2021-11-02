@@ -4,21 +4,21 @@
       "no-perms": "Vous n’avez pas accès à cette commande !",
       "unknown-command": "Commande inconnue, réessayez !",
       "invalid-syntax": "Syntaxe incorrecte, veuillez utiliser :",
+      "game-full": "Ce mode de jeu est actuellement complet, veuillez sélectionner un autre mode de jeu",
       "tebex": {
         "tebex-no-vip": "Vous devez être VIP+ pour utiliser cette commande !",
         "tebex-no-mvp": " Vous devez être MVP+ pour utiliser cette commande !",
         "tebex-no-perms": "Vous n’avez pas le droit d’utiliser cet avantage réservé aux donateurs !",
         "weapon-skin": "Votre skin d’arme a bien été appliqué !"
       },
-      "announcements": [
-        "Rejoignez notre discord pour nous soutenir, avoir des avantages et des partager des memes ! https://cosmicv.net/koth",
-        "Un souci avec un joueur sur notre serveur ? Utilisez /report {id} {raison} pour que le staff s’en occupe !",
-        "Saviez-vous que vous pouvez voter pour les cartes et modes de jeux sur notre discord ? https://cosmicv.net/koth",
-        "Vous souhaitez soutenir l’équipe de développement ? Jetez un coup d’œil à notre boutique : https://store.cosmicv.net",
-        "Les donateurs ont la possibilité de custom leurs skin d’arme, l’apparence de leur joueur et bien plus encore ! https://store.cosmicv.net",
-        "Les VIP+ peuvent personnaliser leurs messages lorsqu’ils rejoignent/quittent le serveur ! https://store.comsicv.net",
-        "Marre du mini jeu actuel ? Utilisez /lobby pour découvrir pleins d’autres modes de jeux ! "
-      ],
+      "announcements": {
+        "announce1": "Rejoignez notre discord pour nous soutenir, avoir des avantages et des partager des memes ! https://cosmicv.net/koth",
+        "announce2": "Un souci avec un joueur sur notre serveur ? Utilisez /report {id} {raison} pour que le staff s’en occupe !",
+        "announce3": "Vous souhaitez soutenir l’équipe de développement ? Jetez un coup d’œil à notre boutique : https://store.cosmicv.net",
+        "announce4": "Les donateurs ont la possibilité de custom leurs skin d’arme, l’apparence de leur joueur et bien plus encore ! https://store.cosmicv.net",
+        "announce5": "Les VIP+ peuvent personnaliser leurs messages lorsqu’ils rejoignent/quittent le serveur ! https://store.comsicv.net",
+        "announce6": "Marre du mini jeu actuel ? Utilisez /lobby pour découvrir pleins d’autres modes de jeux ! "
+      },
       "basic": {
         "forwards": "Avancer",
         "backwards": "Reculer",
@@ -41,7 +41,7 @@
       }
     },
     "koth": {
-      "description": "Combattez jusqu’à la mort dans un mode de jeu multijoueur. Gagnez de l’XP et de l’Argent en tuant vos ennemis et en aidant vos alliés pour améliorer votre arsenal !",
+      "koth-description": "Combattez jusqu’à la mort dans un mode de jeu multijoueur. Gagnez de l’XP et de l’Argent en tuant vos ennemis et en aidant vos alliés pour améliorer votre arsenal !",
       "team-selector": "Sélecteur d’équipe",
       "team-full": "Cette équipe est actuellement pleine ou déséquilibrée. Choisissez plutôt une autre équipe !",
       "shop": {
@@ -52,7 +52,7 @@
         "no-nearby-vehicle": "Aucun véhicule proche !",
         "half-full": "Votre véhicule est\nplus qu’à motié plein !",
         "not-in-weapon-veh": "Vous n’êtes pas dans\nun véhicule armé",
-        "no-damage": "Ce véhicule n'est pas endommagé !",
+        "veh-no-damage": "Ce véhicule n'est pas endommagé !",
         "not-in-veh": "Vous n’êtes pas dans\nun véhicule",
         "weapon-shop-toast": "Boutique d’arme",
         "vehicle-shop-toast": "Boutique de véhicule",
@@ -66,6 +66,7 @@
         "friendlyfire": "tir allié",
         "driver-assist": "assistance de conducteur",
         "assist": "assistance",
+        "squad-assist": "assistance d'escouade",
         "kill-streak": "killstreak",
         "vehicle-destroy": "destruction d'un véhicule",
         "headshot": "tir à la tête",
@@ -79,10 +80,13 @@
         "attacking-obj": "attaque de l’objectif!",
         "healing": "healing",
         "team-healer": "healer d’équipe",
+        "squad-healer": "healer d'escouade",
         "ammo-restock": "restock de munitions",
         "ammo-refill": "recharge de munitions",
         "team-supply": "fournisseur d’équipe",
+        "squad-supply": "fournisseur d'escouade",
         "team-revive": "revive d’équipier",
+        "squad-revive": "revive d'escouade",
         "vehicle-repair": "réparation de véhicule"
       },
       "presets": {
@@ -100,11 +104,6 @@
       "rc-xd": {
         "rc-xd-detonate": "Détonner les explosifs",
         "rc-xd-out-of-range": "ATTENTION\nHors de portée, signal faible.\nMax: ("
-      },
-      "airstrike": {
-        "instruct": "DÉPLACEZ VOTRE LOCALISATION GPS\nPOUR CHANGER DE CIBLE",
-        "out-of-range": "FRAPPE AÉRIENNE HORS DE PORTÉE",
-        "airstrike": "FRAPPE AÉRIENNE"
       },
       "attachments": {
         "attachments-in-spawn": "Vous pouvez uniquement appliquer les accessoires en étant au spawn !",
