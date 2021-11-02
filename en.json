@@ -88,7 +88,8 @@
         "squad-supply": "squad supply",
         "team-revive": "team-mate revive",
         "squad-revive": "squad-mate revive",
-        "vehicle-repair": "vehicle repair"
+        "vehicle-repair": "vehicle repair",
+        "bounty-kill": "claimed bounty"
       },
       "presets": {
         "preset-safezone": "You must be in your safezone to use this command!",
@@ -100,7 +101,8 @@
         "preset-none": "No presets have been made. Rent/buy some items and then save using /preset save",
         "preset-no-cash": "You do not have enough money to rent this preset!",
         "preset-created": "Successfully created a preset named:",
-        "preset-error": "Error creating preset, please contact an administrator."
+        "preset-error": "Error creating preset, please contact an administrator.",
+        "preset-vehicle": "You cannot load a preset while in a vehicle."
       },
       "rc-xd": {
         "rc-xd-detonate": "Detonate Explosives",
