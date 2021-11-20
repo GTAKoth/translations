@@ -1,0 +1,128 @@
+{
+    "core": {
+      "set-lang": "¡Hecho! Has cambiado de idioma.",
+      "no-perms": "¡No tienes acceso a este comando!",
+      "unknown-command": "Comando desconocido, ¿Estás seguro de que lo has escrito bien?",
+      "invalid-syntax": "Sintaxis inválida, usa:",
+      "game-full": "Este modo de juego está lleno, elige otro modo",
+      "tebex": {
+        "tebex-no-vip": "Necesitas el rango VIP+ para usar este comando!",
+        "tebex-no-mvp": "Necesitas el rango MVP+ para usar este comando!",
+        "tebex-no-perms": "No tienes permiso para usar este bonus VIP!",
+        "weapon-skin": "¡Tu skin de arma ha sido aplicada!"
+      },
+      "announcements": {
+        "announce1": "¡Puedes unirte a nuestro discord para solicitar ayuda, desbloquear bonuses guapos y ver memes! https://cosmicv.net/koth",
+        "announce2": "¿Problemas con algún usuario? ¡Usa /report {id} {razón} y el staff lo revisará!",
+        "announce3": "¿Interesado en apoyar el desarrollo de nuestra comunidad? Echa un vistazo a nuestra tienda: https://store.cosmicv.net",
+        "announce4": "¡Los VIPs y MVPs pueden customizar sus skins de armas! Para más info; https://store.cosmicv.net",
+        "announce5": "¡Los VIP+ pueden cambiar sus mensajes de entrada y salida del servidor! Para más info; https://store.comsicv.net",
+        "announce6": "¿No te apetece seguir jugando a este minijuego? Usa /lobby para probar otros minijuegos!"
+      },
+      "basic": {
+        "forwards": "Alante",
+        "backwards": "Atrás",
+        "left": "Izquierda",
+        "right": "Derecha",
+        "dead": "Muerto",
+        "no-money": "Sin dinero",
+        "insufficient-funds": "Fondos insuficientes",
+        "yes": "Si",
+        "no": "No",
+        "confirm": "Confirmar",
+        "deny": "Denegar",
+        "primary": "Primaria",
+        "secondary": "Secundaria",
+        "special": "Especial",
+        "throwable": "Arrojadizas",
+        "killstreaks": "Rachas de bajas",
+        "shop": "Tienda",
+        "died": "Murió"
+      }
+    },
+    "koth": {
+      "koth-description": "Batalla a muerte. Gana dinero y Experiencia a base de matar y ayudar a tus compañeros para mejorar tu arsenal!",
+      "team-selector": "SELECCIONADOR DE EQUIPO",
+      "team-full": "Este equipo ya está lleno. ¡Elige otro equipo!",
+      "shop": {
+        "enter-shop": "Pulsa E para ver la tienda",
+        "enter-preset": "Pulsa G para ver tus armamentos",
+        "repair-cost": "Pulsa E para reparar por: $",
+        "restock-cost": "Pulsa E para reabastecerte por: $",
+        "no-nearby-vehicle": "¡No hay vehículos cerca!",
+        "half-full": "Your vehicle is over half full!",
+        "not-in-weapon-veh": "No estás en un vehículo armado",
+        "veh-no-damage": "¡Este vehículo no está dañado!",
+        "not-in-veh": "¡No estás en un coche!",
+        "weapon-shop-toast": "TIENDA DE ARMAS",
+        "vehicle-shop-toast": "TIENDA DE VEHÍCULOS",
+        "ammo-restock-toast": "REABASTECIMIENTO DE MUNICIÓN",
+        "vehicle-repair-toast": "REPARACIÓN DE VEHÍCULO",
+        "repair-toast": "PULSA E PARA REPARAR",
+        "revive-toast": "PULSA E PARA REANIMAR",
+        "you-can-not-exit-here": "No puedes salir de tu vehículo aquí, muévete hacia adelante."
+      },
+      "events": {
+        "friendlyfire": "Fuego amigo",
+        "driver-assist": "Asistencia de conductor",
+        "assist": "Asistencia",
+        "squad-assist": "Asistencia de escuadrón",
+        "kill-streak": "Racha de bajas",
+        "vehicle-destroy": "Vehículo destruído",
+        "headshot": "Headshot",
+        "kill": "Asesinato",
+        "longshot": "Larga distancia",
+        "hipfire": "Desde la cadera",
+        "reload-kill": "Asesinato de recarga",
+        "transport": "Transportista",
+        "playing": "¡Jugando!",
+        "defending-obj": "¡Defendiendo objetivo!",
+        "attacking-obj": "¡Atacando objetivo!",
+        "healing": "Curándote",
+        "team-healer": "Médico de equipo",
+        "squad-healer": "Médico de escuadrón",
+        "ammo-restock": "Munición rellenada",
+        "ammo-refill": "Cargador rellenado",
+        "team-supply": "Suministro a equipo",
+        "squad-supply": "Suministro a escuadrón",
+        "team-revive": "Compañero de equipo revivido",
+        "squad-revive": "Compañero de escuadrón revivido",
+        "vehicle-repair": "Reparador de Vehículos",
+        "bounty-kill": "Cazarrecompensas"
+      },
+      "presets": {
+        "preset-safezone": "Tienes que estar en una zona segura para usar este comando.",
+        "preset-name-in-use": "Este nombre ya está en uso, prueba con otro!",
+        "preset-buy-more-slots": "Ya no tienes más espacios para armamentos, mejora tus espacios en: https://store.cosmicv.net for more!",
+        "preset-deleted": "Armamento eliminado correctamente",
+        "preset-renamed": "Armamento creado correctamente",
+        "preset-help": "Preset Help",
+        "preset-none": "No has hecho ningún armamento. Compra o alquila armas, y guarda tu armamento con el comando /preset save",
+        "preset-no-cash": "No tienes dinero suficiente para alquilar este armamento",
+        "preset-created": "Armamento creado correctamente con el nombre:",
+        "preset-error": "Error al crear el armamento, contacta con un administrador.",
+        "preset-vehicle": "No puedes equiparte un armamento mientras estás en un vehículo."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Detonar Explosivos",
+        "rc-xd-out-of-range": "PELIGRO\Fuera de rango, señal baja.\nMax: ("
+      },
+      "attachments": {
+        "attachments-in-spawn": "Solo puedes acoplar complementos en el spawn",
+        "attachments-no-weapon": "Este arma todavía no tiene complementos disponibles"
+      },
+      "prestige": {
+        "no-prestige-coins": "¡No tienes monedas de prestigio suficientes para acceder a la tienda!",
+        "not-100": "Necesitas ser nivel 100+ para prestigiar",
+        "need-10k": "Necesitas al menos $10,000 para prestigiar."
+      },
+      "boosters": {
+        "koth-boost-added": "Has añadido este Boost a tu inventario",
+        "koth-boost-active": "¡Ya tienes un Boost de este tipo activo!",
+        "koth-boost-started": "!El Boost ha sido activado!",
+        "koth-boost-expired": "¡Tu Boost ha caducado! Puedes comprar más en la tienda",
+        "koth-xp-continued": "Tu Boost de EXP ha sido renovado!",
+        "koth-money-continued": "Tu Boost de dinero ha sido renovado!"
+      }
+    }
+  }
