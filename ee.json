@@ -1,0 +1,130 @@
+{
+    "core": {
+      "set-lang": "Edu! Sinu keel on uuendatud",
+      "no-perms": "Sul ei ole luba kasutada seda käsku!",
+      "unknown-command": "Teadmatu käsk, proovi uuesti!",
+      "invalid-syntax": "Vale süntaks, palun kasutage:",
+      "game-full": "see mängurežiim on praegu täis, palun valige mõni muu mängurežiim",
+      "tebex": {
+        "tebex-no-vip": "Sa pead olema VIP+, et seda käsku kasutada!",
+        "tebex-no-mvp": "Sa pead olema MVP+, et seda käsku kasutada!",
+        "tebex-no-perms": "Sul pole luba selle annetajahüve kasutamisek luba!",
+        "weapon-skin": "Your weapon tint/skin has been applied!"
+      },
+      "announcements": {
+        "announce1": "Võite liituda meie discordiga, et saada abi, ägedaid hüvesid ja meeme! https://cosmicv.net/koth",
+        "announce2": "On probleem mingi mängijaga meie serveris? Tee /report {id} {Põhjus} et staff saaks seda uurida!",
+        "announce3": "Huvitatud kogukonna arengu toetamisest? Vaata meie poodi: https://store.cosmicv.net",
+        "announce4": "VIP-d ja MVP-d saavad muuta enda relva värvi ja veel! https://store.cosmicv.net",
+        "announce5": "VIP+ kasutajad saavad oma liitumis- ja lahkumissõnumeid serverist kohandada! https://store.comsicv.net",
+        "announce6": "Kas te ei soovi enam minimängu mängida? Kasutage valikut /lobby mitmesuguste muude mängurežiimide mängimiseks!"
+      },
+      "basic": {
+        "forwards": "Otse",
+        "backwards": "Tagurda",
+        "left": "Vasak",
+        "right": "Parem",
+        "dead": "Surnud",
+        "no-money": "Pole raha",
+        "insufficient-funds": "Ebapiisavad vahendid",
+        "yes": "Jah",
+        "no": "Ei",
+        "confirm": "Kinnitada",
+        "deny": "eitama",
+        "primary": "Esmane",
+        "secondary": "Sekundaarne",
+        "special": "Eriline",
+        "throwable": "Visatav",
+        "killstreaks": "Killstreaks",
+        "shop": "Pood",
+        "died": "Surid"
+      }
+    },
+    "koth": {
+      "koth-description": "Võitle surmani mitme mängijaga mängurežiimis. Hankige XP-d ja raha tapmiste ja meeskonnakaaslaste abistamisel oma arsenali täiustamisel!",
+      "team-selector": "Meeskonna valija",
+      "team-full": "See meeskond on praegu täis või tasakaalust väljas. Vali mingi muu meeskond selle asemel!",
+      "shop": {
+        "enter-shop": "Vajuta E et saada poodi",
+        "enter-preset": "Vajuta G, et avada loadoutid",
+        "repair-cost": "Vajuta E et parandada: $",
+        "restock-cost": "Laskemoona lisamiseks vajutage E\nCost: $",
+        "no-nearby-vehicle": "Autosi pole ligidal!",
+        "half-full": "Sinu auto on üle poole täis!",
+        "not-in-weapon-veh": "Sa ei ole olnud relvastatud autos ",
+        "veh-no-damage": "See auto ei ole katki!",
+        "not-in-veh": "Sa ei ole olnud autos!",
+        "weapon-shop-toast": "Relva pood",
+        "vehicle-shop-toast": "Auto pood",
+        "ammo-restock-toast": "Laskemoona varutäiendus ",
+        "vehicle-repair-toast": "Auto parandus",
+        "repair-toast": "VAJUTA E ET PARANDADA",
+        "revive-toast": "VAJUTA E ET ELUSTADA",
+        "you-can-not-exit-here": "Sa ei saa enda autost siit lahkuda, liigu veidike edasi!"
+      },
+      "events": {
+        "friendlyfire": "Sõbralik tuli",
+        "driver-assist": "Juhi abi",
+        "assist": "Abi",
+        "squad-assist": "Meeskonna abi",
+        "kill-streak": "Tapu seeria",
+        "vehicle-destroy": "Sõiduk hävitada",
+        "headshot": "Lask pähe",
+        "kill": "Tapp",
+        "longshot": "Kauglask",
+        "hipfire": "Puusalask",
+        "reload-kill": "Laadimis tapp",
+        "transport": "transport",
+        "playing": "Mängu mängides!",
+        "defending-obj": "Objektiivi kaitsmine!",
+        "attacking-obj": "Objektiivi rünnak!",
+        "healing": "Paranemine",
+        "team-healer": "Meeskonna parandaja",
+        "squad-healer": "Rühma parandaja",
+        "ammo-restock": "laskemoona varu",
+        "ammo-refill": "laskemoona täitmine",
+        "team-supply": "meeskonna varustamine",
+        "squad-supply": "meeskonna varustamine",
+        "team-revive": "meeskonnakaaslane elustada",
+        "squad-revive": "meeskonnakaaslane elustada",
+        "vehicle-repair": "vehicle repair",
+        "bounty-kill": "Pearaha preemia"
+      },
+      "presets": {
+        "preset-safezone": "Selle käsu kasutamiseks peate olema oma turvatsoonis
+!",
+        "preset-name-in-use": "See nimi on juba kasutusel, proovige teist
+!",
+        "preset-buy-more-slots": "Olete juba saavutanud oma maksimaalse teenindusaja, tõstke oma auastet aadressil https://store.cosmicv.net rohkemate jaoks!",
+        "preset-deleted": "Edukalt eemaldatud preset!",
+        "preset-renamed": "Edukalt ümbernimetatud preset!",
+        "preset-help": "Preset abi",
+        "preset-none": "Presette pole tehtud. Laenutage/ostke mõni üksus ja seejärel salvestage /preset save",
+        "preset-no-cash": "Teil ei ole piisavalt raha et laenutada seda presetti!",
+        "preset-created": "Edukalt tehtud preset nimega:",
+        "preset-error": "Viga presetti loomisel, võtke ühendust administraatoriga.",
+        "preset-vehicle": "Sa ei saa laadida presetti istudes autos."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Lõhkeaine lõhkamine",
+        "rc-xd-out-of-range": "HOIATUS Väljaspool leviala, signaal madal.: ("
+      },
+      "attachments": {
+        "attachments-in-spawn": "Saate attachmente rakendada ainult turvatsoonis",
+        "attachments-no-weapon": "Sellel relval ei ole attachmente veel valmis!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Sul ei ole piisavalt prestige coine, et pääseda ligi sellele poele!",
+        "not-100": "Sa pead oleme level 100+ et prestigeda!",
+        "need-10k": "Sa vajad vähemalt 10,000$+ et prestigeda."
+      },
+      "boosters": {
+        "koth-boost-added": "Boost on teie inventuuri lisatud",
+        "koth-boost-active": "Teil one seda tüüpi booster juba aktiivne!",
+        "koth-boost-started": "Boost on aktiveeritud!",
+        "koth-boost-expired": "Su boost on aegunud! Sa saad veel osta poest!",
+        "koth-xp-continued": "XP Boost on jätkanud!",
+        "koth-money-continued": "Raha boost on jätkanud!"
+      }
+    }
+  }
