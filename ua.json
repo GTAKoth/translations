@@ -1,0 +1,128 @@
+{
+    "core": {
+      "set-lang": "Успішно! Мова була змінена.",
+      "no-perms": "Ви не маєте доступу до цієї команди!",
+      "unknown-command": "Невідома команда, спробуйте ще раз!",
+      "invalid-syntax": "Неправильні параметри, використовуйте:",
+      "game-full": "Наразі цей ігровий режим заповнений, будь ласка, виберіть інший",
+      "tebex": {
+        "tebex-no-vip": "Ви повинні мати VIP+ для використання цієї команди",
+        "tebex-no-mvp": "Ви повинні мати MVP+ для використання цієї команди",
+        "tebex-no-perms": "Ви не маєте доступу до використання донатного бонусу!",
+        "weapon-skin": "Ваш скін до зброї було застосовано!"
+      },
+      "announcements": {
+        "announce1": "Ви можете приєднатися до нашого діскорду для допомоги, крутих бонусів та мемів https://cosmicv.net/koth",
+        "announce2": "Виникли проблеми з гравцем на нашому сервері? Використовуйте /report {id} {причина} для скарги адміністрації!",
+        "announce3": "Зацікавлені у підтримці розробки? Загляньте до нашого магазину: https://store.cosmicv.net",
+        "announce4": "VIP і MVP можуть кастомізувати свою зброю та багато іншого! https://store.cosmicv.net",
+        "announce5": "VIP+ гравці можуть налаштовувати повідомлення при заході/виході з гри! https://store.comsicv.net",
+        "announce6": "Не до вподоби режим в якому ви граєте? Використовуйте /lobby щоб вибрати ігровий режим до вподоби!"
+      },
+      "basic": {
+        "forwards": "Прямо",
+        "backwards": "Назад",
+        "left": "Наліво",
+        "right": "Направо",
+        "dead": "Мертвий",
+        "no-money": "Немає грошей",
+        "insufficient-funds": "Недостатньо Коштів",
+        "yes": "Так",
+        "no": "Ні",
+        "confirm": "Підтвердити",
+        "deny": "Відмовитись",
+        "primary": "Основне",
+        "secondary": "Додаткове",
+        "special": "Спеціальне",
+        "throwable": "Метальне",
+        "killstreaks": "Серія вбивтст",
+        "shop": "Магазин",
+        "died": "Помер"
+      }
+    },
+    "koth": {
+      "koth-description": "Змагайтеся на смерть в користувацькому режимі. Отримуйте XP та гроші за вбивства та допомогу товаришам по команді щоб покаращити свій арсенал!",
+      "team-selector": "ВИБІР КОМАНДИ",
+      "team-full": "Наразі ця команда заповнена або незбалансована. Виберіть іншу команду!",
+      "shop": {
+        "enter-shop": "Нажміть E щоб увійти в магазин",
+        "enter-preset": "Нажміть G щоб відкрити спорядження",
+        "repair-cost": "Нажміть E щоб відремонтуватись\nЦіна: $",
+        "restock-cost": "Нажміть E щоб перезарядити боєзапас\nЦіна: $",
+        "no-nearby-vehicle": "Поряд немає транспортних засобів!",
+        "half-full": "Ваш транспорт заповнений більше ніж на половину!",
+        "not-in-weapon-veh": "Ви не на автомобілі з озброенням",
+        "veh-no-damage": "Цей автомобіль не пошкоджений!",
+        "not-in-veh": "Ви не в автомобілі!",
+        "weapon-shop-toast": "МАГАЗИН ЗБРОЇ",
+        "vehicle-shop-toast": "МАГАЗИН ТРАНСПОРТУ",
+        "ammo-restock-toast": "ПОНОВЛЕННЯ БОЄПРИПАСІВ",
+        "vehicle-repair-toast": "РЕМОНТ ТРАНСПОРТУ",
+        "repair-toast": "НАЖМІТЬ E ДЛЯ РЕМОНТУ",
+        "revive-toast": "НАЖМІТЬ E ЩОБ ОЖИВИТИ",
+        "you-can-not-exit-here": "Ви не можете вийти з автомобіля тут, проїдьте вперед"
+      },
+      "events": {
+        "friendlyfire": "friendly fire",
+        "driver-assist": "driver assist",
+        "assist": "допомога у вбивстві",
+        "squad-assist": "допомога відряду",
+        "kill-streak": "серія вбивств",
+        "vehicle-destroy": "знищення техніки",
+        "headshot": "headshot",
+        "kill": "вбивство",
+        "longshot": "далекий постріл",
+        "hipfire": "hipfire",
+        "reload-kill": "reload kill",
+        "transport": "transport",
+        "playing": "playing the game!",
+        "defending-obj": "defending the objective!",
+        "attacking-obj": "attacking objective!",
+        "healing": "healing",
+        "team-healer": "team healer",
+        "squad-healer": "squad healer",
+        "ammo-restock": "ammo restock",
+        "ammo-refill": "ammo refill",
+        "team-supply": "team supply",
+        "squad-supply": "squad supply",
+        "team-revive": "team-mate revive",
+        "squad-revive": "squad-mate revive",
+        "vehicle-repair": "ремонт транспорту",
+        "bounty-kill": "claimed bounty"
+      },
+      "presets": {
+        "preset-safezone": "Ви маєте бути на спавні для використання команди!",
+        "preset-name-in-use": "Це ім'я вже використовуеться, спробуйте інше!",
+        "preset-buy-more-slots": "Ви досягли максимум слотів, підвищіть свій ранг на https://store.cosmicv.net щоб отримати більше!",
+        "preset-deleted": "Пресет успішно видалено!",
+        "preset-renamed": "Пресет успішно перейменовано!",
+        "preset-help": "Допомога з пресетом",
+        "preset-none": "Пресетів немає. Орендуйте/купіть якісь речі та використайте /preset save",
+        "preset-no-cash": "Ви не маєте коштів щоб орендувати цей пресет!",
+        "preset-created": "Пресет успішно створено з назвою:",
+        "preset-error": "При створенні пресету виникла помилка, будь ласка, звяжіться з адміністратором.",
+        "preset-vehicle": "Ви не можете загрузити пресет у транспорті."
+      },
+      "rc-xd": {
+        "rc-xd-detonate": "Підірвати вибухівку",
+        "rc-xd-out-of-range": "УВАГА\nЗа межами діапазону, низький сигнал.\nМаксимум: ("
+      },
+      "attachments": {
+        "attachments-in-spawn": "Ви можете застосувати аксесуари до зброї лише на спавні!",
+        "attachments-no-weapon": "Наразі немє аксесуарів до данної зброї!"
+      },
+      "prestige": {
+        "no-prestige-coins": "Ви не маєте достатньо престиж-коїнів для доступу в магазин!",
+        "not-100": "У вас має бути 100+ рівень щоб здобути престиж!",
+        "need-10k": "У вас має бути якнаймеше 10,000$ щоб здобути престиж."
+      },
+      "boosters": {
+        "koth-boost-added": "Буст було додано в ваш інвентар",
+        "koth-boost-active": "Ви вже маєте активний бустер цього типу!",
+        "koth-boost-started": "Буст було активовано!",
+        "koth-boost-expired": "Ваш буст закінчився! Ви можете купити більше в магазині!",
+        "koth-xp-continued": "XP Буст було продовжено!",
+        "koth-money-continued": "Буст грошей було продовжено!"
+      }
+    }
+  }
