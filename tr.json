@@ -54,7 +54,7 @@
         "hat-applied": "Şapka başarıyla etkinleştirildi!",
         "hat-removed": "Şapka başarıyla çıkarıldı.",
         "hat-doesnt-exist": "Bu isimde bir şapka yok!",
-        "tag-doesnt-exist": "Bu geçerli bir etiket değil! (kar tanesi/gökkuşağı/şeker/kırmızı/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/turuncu/mor/gri/altın/pembe/dark_pink/kahverengi/sarı) kullanın",
+        "tag-doesnt-exist": "Bu geçerli bir etiket değil! (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow) kullanın",
         "tag-applied": "Sohbet etiketi oynatıcınıza başarıyla uygulandı!"
     },
     "chat-messages": {
