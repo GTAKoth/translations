@@ -153,7 +153,7 @@
         "squad-unique-name": "Eine Gruppe hat bereits diesen Namen",
         "squad-player-not-in-squad": "Der Spieler [%s] ist nicht in deiner Gruppe",
         "squad-settag-success": "Der Gruppen-Tag lautet: [%s]",
-        "squad-private": "Ihr Team ist jetzt: %s.",
+        "squad-private": "Deine Gruppe ist jetzt: %s.",
         "squad-already-in-squad": "Du bist bereits in einer Gruppe, um einer anderen beizutreten, musst du deine aktuelle verlassen",
         "squad-wrong-team": "Diese Gruppe gehört zum Team %s, bitte wechseln Sie das Team, um dieser Gruppe beizutreten.",
         "squad-kicked-you": "Sie wurden vom Anführer aus der Gruppe entfernt.",
