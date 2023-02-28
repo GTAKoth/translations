@@ -32,7 +32,7 @@
         "healing": "Soin",
         "restocking": "Réapprovisionnement de munitions",
         "team-healer": "Soin d'équipier",
-        "team-supply": "team supply"
+        "team-supply": "Soutien d'équipier"
     },
     "abilities": {
         "revive-toast": "APPUYEZ SUR E POUR RÉANIMER"
@@ -59,7 +59,7 @@
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "Un redémarrage immédiat du serveur a commencer! Sauvegarde des données des joueurs puis redémarrage!",
-        "chat-messages-server-restart-after-game": "Le serveur va redémarrer à la fin de cette partie!!",
+        "chat-messages-server-restart-after-game": "Le serveur va redémarrer à la fin de cette partie!",
         "chat-messages-map-vote-start": "Le vote de la prochaine map vient de commencer, tapez /mapvote pour voter!",
         "chat-messages-map-vote-ended": "Le vote de la prochaine map vient de terminer! Prochaine map: %s",
         "chat-messages-map-vote-voted": "%s vient de voter pour %s avec une puissance de %s (%s | %s)",
@@ -116,11 +116,11 @@
     "shop-titles": {
         "shop-title-vehicle": "Magasin Véhicules",
         "shop-title-killstreaks": "Magasin Séries d'Éliminations",
-        "shop-title-assault": "Magasin Classe Assaut",
-        "shop-title-engineer": "Magasin Classe Mécanicien",
-        "shop-title-heavy": "Magasin Classe Lourd",
-        "shop-title-medic": "Magasin Classe Médecin",
-        "shop-title-scout": "Magasin Classe Éclaireur"
+        "shop-title-assault": "Magasin Classe Assault",
+        "shop-title-engineer": "Magasin Classe Engineer",
+        "shop-title-heavy": "Magasin Classe Heavy",
+        "shop-title-medic": "Magasin Classe Medic",
+        "shop-title-scout": "Magasin Classe Scout"
     },
     "squad": {
         "squad-left-you": "Vous avez quitté la squad!",
