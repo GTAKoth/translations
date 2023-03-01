@@ -24,10 +24,10 @@
         "play": "SPIELEN",
         "language": "Sprache",
         "team-full": "Dieses Team ist derzeit voll oder unausgeglichen. Wähle stattdessen ein anderes Team!",
-        "error": "Error",
+        "error": "Fehler",
         "transport": "Transport",
-        "transport-air": "air transport",
-        "taking-transport": "using transport",
+        "transport-air": "Lufttransport",
+        "taking-transport": "Transport verwendet",
         "team-revive": "Team Wiederbelebung",
         "healing": "Heilung",
         "restocking": "Munition auffüllen",
@@ -38,8 +38,8 @@
         "revive-toast": "ZUM WIEDERBELEBEN E DRÜCKEN"
     },
     "rewards": {
-        "defending-obj": "das Ziel verteidigen!",
-        "attacking-obj": "Das Ziel angreifen!",
+        "defending-obj": "Das Ziel verteidigt!",
+        "attacking-obj": "Das Ziel angegriffen!",
         "playing": "Spielt das Spiel!"
     },
     "announcements": {
@@ -144,21 +144,21 @@
         "squad-no-player-kick": "Sie haben keinen Spieler angegeben, den Sie aus Ihre Gruppe rauswerfen wollen!",
         "squad-no-player-promote": "Sie haben keinen Spieler angegeben, der in Ihrer Gruppe befördert werden soll!",
         "squad-player-not-found": "Der angegebene Spieler konnte nicht gefunden werden oder ist bereits Teil der Gruppe.",
-        "squad-kick-success": "Successfully kicked %s from your squad.",
+        "squad-kick-success": "Du hast %s aus deiner Gruppe geworfen",
         "squad-promote-success": "%s erfolgreich zum Gruppenleiter befördert.",
         "squad-mvp-clantag": "Du brauchst MVP, um deinen Clan-Tag anzupassen!",
         "squad-no-clantag": "Sie haben keinen zu setzenden Tag angegeben!",
         "squad-not-leader": "Sie sind nicht der Anführer dieser Gruppe!",
         "squad-revive": "Gruppenwiederbelebung",
-        "squad-unique-name": "A squad already exists with that name.",
-        "squad-player-not-in-squad": "Player [%s] is not in your squad",
-        "squad-settag-success": "Squad tag has been set to [%s]",
-        "squad-private": "Your squad is now %s.",
-        "squad-already-in-squad": "You are already in a squad, leave before joining another squad.",
-        "squad-wrong-team": "This squad is on the %s team, please switch teams to join this squad.",
-        "squad-kicked-you": "You were removed from the squad by the leader.",
-        "squad-members": "Squad members: %s",
-        "squad-unban": "Unbanned [%s] from your squad"
+        "squad-unique-name": "Eine Gruppe hat bereits diesen Namen",
+        "squad-player-not-in-squad": "Der Spieler [%s] ist nicht in deiner Gruppe",
+        "squad-settag-success": "Der Gruppen-Tag lautet: [%s]",
+        "squad-private": "Deine Gruppe ist jetzt: %s.",
+        "squad-already-in-squad": "Du bist bereits in einer Gruppe, um einer anderen beizutreten, musst du deine aktuelle verlassen",
+        "squad-wrong-team": "Diese Gruppe gehört zum Team %s, bitte wechseln Sie das Team, um dieser Gruppe beizutreten.",
+        "squad-kicked-you": "Sie wurden vom Anführer aus der Gruppe entfernt.",
+        "squad-members": "Gruppenmitglieder: %s",
+        "squad-unban": "Du hast die Sperre von [%s] in deiner Gruppe aufgehoben"
     },
     "boosters": {
         "no-xp-boosters": "Sie haben keine XP-Booster zur Verfügung!",
@@ -190,6 +190,6 @@
         "1v1-wager-loss": "Du hast in deinem letzten 1v1 $%s gegen %s verloren!",
         "1v1-target-broke": "Ihr Gegner kann sich diese Wette nicht leisten!",
         "1v1-cant-afford": "Diese Wette können Sie sich nicht leisten!",
-        "1v1-on-cooldown": "You or your apponent is on a cooldown for 1v1's!"
+        "1v1-on-cooldown": "Du oder dein Gegner besitzt eine Abklingzeit für 1v1's!"
     }
 }
