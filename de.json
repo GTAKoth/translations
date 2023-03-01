@@ -75,7 +75,7 @@
         "chat-messages-too-many-reports": "Wir wissen es zu schätzen, dass Sie helfen wollen, aber bitte halten Sie sich mit Ihren Reports zurück!",
         "chat-messages-invalid-player": "Ungültige Spieler-ID, ein Spieler mit dieser ID existiert nicht.",
         "chat-messages-no-permission": "Sie haben nicht den erforderlichen Rang, um diesen Befehl zu benutzen!",
-        "chat-messages-nickname-too-long": "Dieser Spitzname ist zu lang! Maximal 12 Zeichen.",
+        "chat-messages-nickname-too-long": "Dieser Spitzname ist zu lang! Maximal 20 Zeichen.",
         "chat-messages-invalid-uid": "Ungültige UID [%s]",
         "chat-messages-missing-args": "Erforderliche Befehlsargumente fehlen.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",

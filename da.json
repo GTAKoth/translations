@@ -75,7 +75,7 @@
         "chat-messages-too-many-reports": "Vi er glade for du vil hjælpe, men vær venlig at slappe af med dine rapporteringer!",
         "chat-messages-invalid-player": "Ugyldigt spiller id, spilleren med dette id findes ikke.",
         "chat-messages-no-permission": "Du har ikke den krævede rank for at bruge denne command!",
-        "chat-messages-nickname-too-long": "Det kælenavn er for langt! Under 12 tegn.",
+        "chat-messages-nickname-too-long": "Det kælenavn er for langt! Under 20 tegn.",
         "chat-messages-invalid-uid": "Ugyldigt UID [%s]",
         "chat-messages-missing-args": "Manglende påkrævede command argumenter.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",

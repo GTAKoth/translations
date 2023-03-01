@@ -75,7 +75,7 @@
         "chat-messages-too-many-reports": "Nous sommes reconnaissants que vous vouliez aider, mais faites des reports moins rapidments!",
         "chat-messages-invalid-player": "UID du joueur invalide!",
         "chat-messages-no-permission": "Vous n'avez pas le rang requis pour utiliser cette commande!",
-        "chat-messages-nickname-too-long": "Ce surnom est trop long! Il doit contenir moins de 12 caractères.",
+        "chat-messages-nickname-too-long": "Ce surnom est trop long! Il doit contenir moins de 20 caractères.",
         "chat-messages-invalid-uid": "UID [%s] invalide!",
         "chat-messages-missing-args": "Missing required command arguments!",
         "chat-messages-killfeed-toggle": "Killfeed %!.",
