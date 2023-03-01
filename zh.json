@@ -75,7 +75,7 @@
         "chat-messages-too-many-reports": "We appreciate you wanting to help, but please slow down with your reports!",
         "chat-messages-invalid-player": "Invalid player id, a player with that ID doesn't exist.",
         "chat-messages-no-permission": "You do not have the rank required to use this command!",
-        "chat-messages-nickname-too-long": "That nickname is too long! Under 12 characters.",
+        "chat-messages-nickname-too-long": "That nickname is too long! Under 20 characters.",
         "chat-messages-invalid-uid": "Invalid UID [%s]",
         "chat-messages-missing-args": "Missing required command arguments.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
