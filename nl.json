@@ -55,7 +55,7 @@
     "hat-removed": "Je hoed is met succes afgedaan.",
     "hat-doesnt-exist": "Hoed bestaat niet met die naam!",
     "tag-doesnt-exist": "Deze tag is niet beschikbaar! gebruik (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-    "tag-applied": "Chat tag met succes toegevoegd aan je account!",
+    "tag-applied": "Chat tag met succes toegevoegd aan je account!"
   },
   "chat-messages": {
     "chat-messages-immediate-server-restart": "Een onmidelijke server restart is uitgevoerd, speler data wordt opgeslagen en gerestart.",
