@@ -75,7 +75,7 @@
         "chat-messages-too-many-reports": "Kita apresiasi kamu membutuhkan bantuan, tapi tolong untuk melapor perlahan!",
         "chat-messages-invalid-player": "Player dengan id tersebut tidak ada.",
         "chat-messages-no-permission": "Kamu tidak memiliki rank untuk menggunakan perintah ini!",
-        "chat-messages-nickname-too-long": "Nama terlalu panjang! Harus dibawah 12 karakter.",
+        "chat-messages-nickname-too-long": "Nama terlalu panjang! Harus dibawah 20 karakter.",
         "chat-messages-invalid-uid": "UID tidak ditemukan [%s]",
         "chat-messages-missing-args": "Argument perintah tersebut kurang.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
