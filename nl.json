@@ -65,7 +65,7 @@
     "chat-messages-map-vote-voted": "%s Heeft zojuist gestemt voor %s met een kracht van %s (%s | %s)",
     "chat-messages-current-map-is": "De huidige map is %s",
     "chat-messages-next-map-is": "Volgende map is %s",
-    "chat-messages-no-next-map": "De volgende map i snog niet gekozen.",
+    "chat-messages-no-next-map": "De volgende map is nog niet gekozen.",
     "chat-messages-not-valid-team-name": "Geen geldige team naam.",
     "chat-messages-staff-player-removed": "%s is verwijderd door een staff.",
     "chat-messages-staff-multi-changed": "Een staff lid heeft zojuis %s boost geactiveerd met een kracht van %sx",
