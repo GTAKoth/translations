@@ -26,13 +26,13 @@
     "team-full": "Dit team is momenteel vol of ongebalanceerd. Kies een ander team!",
     "error": "Error",
     "transport": "transport",
-    "transport-air": "air transport",
-    "taking-transport": "using transport",
+    "transport-air": "Lucht transport",
+    "taking-transport": "Transport gebruikt",
     "team-revive": "team revive",
     "healing": "healing",
-    "restocking": "ammo restock",
+    "restocking": "ammo hervuld",
     "team-healer": "team healer",
-    "team-supply": "team supply"
+    "team-supply": "team levering"
   },
   "abilities": {
     "revive-toast": "DRUK OP E OM TE REVIVEN"
@@ -55,7 +55,7 @@
     "hat-removed": "Je hoed is met succes afgedaan.",
     "hat-doesnt-exist": "Hoed bestaat niet met die naam!",
     "tag-doesnt-exist": "Deze tag is niet beschikbaar! gebruik (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-    "tag-applied": "Chat tag met succes toegevoegd aan je accound!",
+    "tag-applied": "Chat tag met succes toegevoegd aan je account!"
   },
   "chat-messages": {
     "chat-messages-immediate-server-restart": "Een onmidelijke server restart is uitgevoerd, speler data wordt opgeslagen en gerestart.",
@@ -79,7 +79,7 @@
     "chat-messages-invalid-uid": "Ongeldig UID [%s]",
     "chat-messages-missing-args": "Missing required command arguments.",
     "chat-messages-killfeed-toggle": "Killfeed %s.",
-    "chat-messages-death-sounds-toggle": "Death sounds %s.",
+    "chat-messages-death-sounds-toggle": "Dood geluiden %s.",
     "chat-messages-disableRank-toggle": "Chat rank %s.",
     "chat-messages-display-uid": "Jouw UID is [%s]"
   },
@@ -116,11 +116,11 @@
   "shop-titles": {
     "shop-title-vehicle": "Voertuigen Winkel",
     "shop-title-killstreaks": "Killstreak Winkel",
-    "shop-title-assault": "Assault Class Winkel",
-    "shop-title-engineer": "Engineer Class Winkel",
-    "shop-title-heavy": "Heavy Class Winkel",
-    "shop-title-medic": "Medic Class Winkel",
-    "shop-title-scout": "Scout Class Winkel"
+    "shop-title-assault": "Aanvaller Class Winkel",
+    "shop-title-engineer": "Ingenieur Class Winkel",
+    "shop-title-heavy": "Zwaar Class Winkel",
+    "shop-title-medic": "Doktor Class Winkel",
+    "shop-title-scout": "Verkenner Class Winkel"
   },
   "squad": {
     "squad-left-you": "Je hebt je squat verlaten!",
@@ -132,7 +132,7 @@
     "squad-disbanded": "Je squad is opgeheven, je bent uit het team gezet!",
     "squad-new-member": "%s is zojuist de squad gejoint (%s/%s)!",
     "squad-already-in": "Je zit al in een squad!",
-    "squad-no-name": "Give your squad a valid name!",
+    "squad-no-name": "Geef je squad een geldige naam!",
     "squad-created": "Je hebt met succes de squad genaamd %s aangemaakt.",
     "squad-no-id": "Je hebt niet aangegeven welke squad je wilde joinen (/squad accept [id])",
     "squad-doesnt-exist": "Er bestaat geen squad met die naam!",
@@ -150,15 +150,15 @@
     "squad-no-clantag": "Je hebt geen tag gekozen om te gebruiken!",
     "squad-not-leader": "Je bent niet de leider van deze squad!",
     "squad-revive": "squad revive",
-    "squad-unique-name": "A squad already exists with that name.",
-    "squad-player-not-in-squad": "Player [%s] is not in your squad",
-    "squad-settag-success": "Squad tag has been set to [%s]",
-    "squad-private": "Your squad is now %s.",
-    "squad-already-in-squad": "You are already in a squad, leave before joining another squad.",
-    "squad-wrong-team": "This squad is on the %s team, please switch teams to join this squad.",
-    "squad-kicked-you": "You were removed from the squad by the leader.",
-    "squad-members": "Squad members: %s",
-    "squad-unban": "Unbanned [%s] from your squad"
+    "squad-unique-name": "Er bestaat al een squad met deze naam.",
+    "squad-player-not-in-squad": "Speler [%s] is niet in jou quad",
+    "squad-settag-success": "Squad tag aangepast naar [%s]",
+    "squad-private": "Je squad is nu %s.",
+    "squad-already-in-squad": "Je zit al in een squad, verlaat de squad voor dat je een andere kan joinen.",
+    "squad-wrong-team": "Deze squad zit in het  %s team, verrander van team om deze squad te joinen.",
+    "squad-kicked-you": "Je bent verwijderd uit de squad door de squad leider.",
+    "squad-members": "Squad leden: %s",
+    "squad-unban": "Unbanned [%s] uit de squad"
   },
   "boosters": {
     "no-xp-boosters": "Je hebt geen XP boosters om te gebruiken!",
