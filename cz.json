@@ -75,7 +75,7 @@
         "chat-messages-too-many-reports": "Vážime si tvojí pomoci, ale prosím zpomal!",
         "chat-messages-invalid-player": "Neznáme id hráče, hráč s tímhle ID neexistuje.",
         "chat-messages-no-permission": "Nemáš opravnění pro použití tohodle commandu!",
-        "chat-messages-nickname-too-long": "Tahle přezdívka je příliš dlouhá! Pod 12 slovy.",
+        "chat-messages-nickname-too-long": "Tahle přezdívka je příliš dlouhá! Pod 20 slovy.",
         "chat-messages-invalid-uid": "Neznámé UID [%s]",
         "chat-messages-missing-args": "Chybí požadované argumenty příkazu.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
