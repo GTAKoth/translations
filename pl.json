@@ -64,7 +64,7 @@
         "chat-messages-map-vote-ended": "Wybór następnej mapy zakończony! Następna mapa: %s",
         "chat-messages-map-vote-voted": "%s właśnie zagłosował na %s z mocą %s (%s | %s)",
         "chat-messages-current-map-is": "Aktualna mapa: %s",
-        "chat-messages-next-map-is": "Następna mapa: s",
+        "chat-messages-next-map-is": "Następna mapa: %s",
         "chat-messages-no-next-map": "Następna mapa nie została jeszcze wybrana.",
         "chat-messages-not-valid-team-name": "Niepoprawna nazwa drużyny.",
         "chat-messages-staff-player-removed": "%s został usunięty przez Administrację.",
