@@ -81,7 +81,9 @@
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Dźwięki śmierci %s.",
         "chat-messages-disableRank-toggle": "Ranga czatu %s.",
-        "chat-messages-display-uid": "Twoje UID to: [%s]"
+        "chat-messages-display-uid": "Twoje UID to: [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Musisz mieć poziom 100+ aby uzyskać Prestiż!",
@@ -103,7 +105,7 @@
         "shop-error-vehicle-spawn": "Pojazd się nie pojawił. Nie pobrano opłaty",
         "shop-buy-parachute": "Dostałeś spadochron. Gotów do skoku!",
         "shop-rent-vehicle-max-limit": "Nie udało się wynająć pojazdu, limit drużynowy został osiągnięty.",
-        "shop-error-low-funds": "Nie masz wystarczającej ilości pieniędzy! Potrzebujesz $%s",
+        "shop-error-low-funds": "You do not have enough money to %s this weapon! You need $%s",
         "shop-error-low-level": "Nie masz wystarczającego poziomu! Musisz mieć poziom %s",
         "shop-error-low-rank": "Musisz być %s aby to zakupić.",
         "shop-error-low-prestige": "Masz za niski poziom prestiżu! Musisz mieć poziom %s",

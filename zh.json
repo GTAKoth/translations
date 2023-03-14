@@ -68,7 +68,7 @@
         "chat-messages-no-next-map": "下一張地圖還沒選.",
         "chat-messages-not-valid-team-name": "不是有效的團隊名稱.",
         "chat-messages-staff-player-removed": "%s 被工作人員移除.",
-        "chat-messages-staff-multi-changed": "一名工作人員剛剛通過以下力量啟用了金錢/經驗提升 %sx",
+        "chat-messages-staff-multi-changed": "A staff member has just enabled a %s boost with the power of %sx",
         "chat-messages-no-muted": "You can't send chat messages while muted.",
         "chat-messages-too-fast": "You can't send messages this fast.",
         "chat-messages-challenge-completed": "您已完成每日挑戰.",
@@ -81,7 +81,9 @@
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
-        "chat-messages-display-uid": "Your UID is [%s]"
+        "chat-messages-display-uid": "Your UID is [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "You need to be level 100+ to prestige!",
