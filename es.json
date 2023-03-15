@@ -81,7 +81,9 @@
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Sonidos de muerte %s.", 
         "chat-messages-disableRank-toggle": "Rango de chat %s.", 
-        "chat-messages-display-uid": "Tu UID es [%s]"
+        "chat-messages-display-uid": "Tu UID es [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "¡Necesitas tener el nivel 100+ para tener prestigio!",

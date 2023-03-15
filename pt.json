@@ -75,13 +75,15 @@
         "chat-messages-too-many-reports": "Agradecemos teres reportado e quereres ajudar, mas relaxa, estamos a tratar deles!",
         "chat-messages-invalid-player": "ID de jogador inválido, um jogador com esse ID não existe.",
         "chat-messages-no-permission": "Escrever comandos que não te pertencem? Malandro! Não tens o rank necessário para o usar!",
-        "chat-messages-nickname-too-long": "That nickname is too long! Under 12 characters.",
+        "chat-messages-nickname-too-long": "Esse apelido é demasiado longo! Menos de 20 caracteres.",
         "chat-messages-invalid-uid": "Invalid UID [%s]",
         "chat-messages-missing-args": "Missing required command arguments.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
-        "chat-messages-display-uid": "Your UID is [%s]"
+        "chat-messages-display-uid": "Your UID is [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Precisas de ser nivel 100+ para fazer prestige!",

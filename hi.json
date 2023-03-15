@@ -75,13 +75,15 @@
         "chat-messages-too-many-reports": "हम आपकी सहायता करने की इच्छा की सराहना करते हैं, लेकिन कृपया अपनी रिपोर्ट की गति धीमी करें!",
         "chat-messages-invalid-player": "अमान्य खिलाड़ी आईडी, उस आईडी वाला खिलाड़ी मौजूद नहीं है।",
         "chat-messages-no-permission": "आपके पास इस आदेश का उपयोग करने के लिए आवश्यक रैंक नहीं है!",
-        "chat-messages-nickname-too-long": "That nickname is too long! Under 12 characters.",
+        "chat-messages-nickname-too-long": "That nickname is too long! Under 20 characters.",
         "chat-messages-invalid-uid": "Invalid UID [%s]",
         "chat-messages-missing-args": "Missing required command arguments.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
-        "chat-messages-display-uid": "Your UID is [%s]"
+        "chat-messages-display-uid": "Your UID is [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "आपको प्रेस्टीज करने के लिए 100+ के स्तर की आवश्यकता है!",
