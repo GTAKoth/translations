@@ -6,7 +6,7 @@
         "backwards": "Reverse",
         "back": "Back",
         "left": "Left",
-        "right": "Right",
+        "right": "Right %s",
         "dead": "Dead",
         "no-money": "No Money",
         "insufficient-funds": "Insufficient Funds",
