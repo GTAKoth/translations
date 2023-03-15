@@ -75,13 +75,15 @@
         "chat-messages-too-many-reports": "Vi er glade for du vil hjælpe, men vær venlig at slappe af med dine rapporteringer!",
         "chat-messages-invalid-player": "Ugyldigt spiller id, spilleren med dette id findes ikke.",
         "chat-messages-no-permission": "Du har ikke den krævede rank for at bruge denne command!",
-        "chat-messages-nickname-too-long": "Det kælenavn er for langt! Under 12 tegn.",
+        "chat-messages-nickname-too-long": "Det kælenavn er for langt! Under 20 tegn.",
         "chat-messages-invalid-uid": "Ugyldigt UID [%s]",
         "chat-messages-missing-args": "Manglende påkrævede command argumenter.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Døds lyde %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
-        "chat-messages-display-uid": "Dit UID er [%s]"
+        "chat-messages-display-uid": "Dit UID er [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Du skal være level 100+ for at kunne prestige!",
@@ -133,7 +135,7 @@
         "squad-new-member": "%s er lige joined gruppen (%s/%s)",
         "squad-already-in": "Du er allerede i en gruppe!",
         "squad-no-name": "Giv din gruppe et navn!",
-        "squad-created": "Gruppen % er nu oprettet.",
+        "squad-created": "Successfully created the %s squad.",
         "squad-no-id": "Du specificerede ikke den valgte gruppe (/squad accept [id])",
         "squad-doesnt-exist": "Ingen gruppe med det id findes!",
         "squad-no-invite": "Du er ikke blevet inviteret til denne gruppe!",

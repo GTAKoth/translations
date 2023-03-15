@@ -75,13 +75,15 @@
         "chat-messages-too-many-reports": "Vi uppskattar att du vill hjälpa, men var snäll och sakta ner med dina reports!",
         "chat-messages-invalid-player": "Otillgänglig spelar id, en spelare med det  ID existerar inte.",
         "chat-messages-no-permission": "Du har inte rangen som krävs för att använda detta kommand!",
-        "chat-messages-nickname-too-long": "That nickname is too long! Under 12 characters.",
+        "chat-messages-nickname-too-long": "That nickname is too long! Under 20 characters.",
         "chat-messages-invalid-uid": "Invalid UID [%s]",
         "chat-messages-missing-args": "Missing required command arguments.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
-        "chat-messages-display-uid": "Your UID is [%s]"
+        "chat-messages-display-uid": "Your UID is [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Du behöver vara levle 100+ för att prestiga!!",

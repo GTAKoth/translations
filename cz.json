@@ -34,13 +34,13 @@
         "team-healer": "tým zdravotník",
         "team-supply": "tým zásobování"
     },
-    "Schopnosti": {
-        "revive-toast": "Zmáčkní E pro OŽIVENÍ"
+    "abilities": {
+        "revive-toast": "PRESS E TO REVIVE"
     },
-    "Odměny": {
-        "defending-obj": "braňte objektiv!",
-        "attacking-obj": "utočte na objektiv!",
-        "playing": "Hraní hry!"
+    "rewards": {
+        "defending-obj": "defending the objective!",
+        "attacking-obj": "attacking objective!",
+        "playing": "Playing the game!"
     },
     "announcements": {
         "announce1": "Můžete se připojit na náš discord pro podporu, výhodné perky a meme! https://cosmicv.net/koth",
@@ -75,13 +75,15 @@
         "chat-messages-too-many-reports": "Vážime si tvojí pomoci, ale prosím zpomal!",
         "chat-messages-invalid-player": "Neznáme id hráče, hráč s tímhle ID neexistuje.",
         "chat-messages-no-permission": "Nemáš opravnění pro použití tohodle commandu!",
-        "chat-messages-nickname-too-long": "Tahle přezdívka je příliš dlouhá! Pod 12 slovy.",
+        "chat-messages-nickname-too-long": "Tahle přezdívka je příliš dlouhá! Pod 20 slovy.",
         "chat-messages-invalid-uid": "Neznámé UID [%s]",
         "chat-messages-missing-args": "Chybí požadované argumenty příkazu.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
-        "chat-messages-display-uid": "Tvoje UID je [%s]"
+        "chat-messages-display-uid": "Tvoje UID je [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Potřebuješ být level 100+ pro prestiž!",

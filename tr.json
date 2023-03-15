@@ -75,13 +75,15 @@
         "chat-messages-too-many-reports": "Yardım etmek istediğiniz için teşekkür ederiz, ancak lütfen raporlarınızda yavaşlayın!",
         "chat-messages-invalid-player": "Geçersiz oyuncu kimliği, bu kimliğe sahip bir oyuncu mevcut değil.",
         "chat-messages-no-permission": "Bu komutu kullanmak için gereken seviyeye sahip değilsiniz!",
-        "chat-messages-nickname-too-long": "Bu takma ad çok uzun! 12 karakterin altında.",
+        "chat-messages-nickname-too-long": "Bu takma ad çok uzun! 20 karakterin altında.",
         "chat-messages-invalid-uid": "Geçersiz UID [%s]",
         "chat-messages-missing-args": "Komutun bağımsız değişkenleri eksik.",
         "chat-messages-killfeed-toggle": "Öldürme beslemesi %s.",
         "chat-messages-death-sounds-toggle": "Ölüm sesi %s.",
         "chat-messages-disableRank-toggle": "Sohbet sıralaması %s.",
-        "chat-messages-display-uid": "UID'niz [%s]"
+        "chat-messages-display-uid": "UID'niz [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Prestij kullanmak için 100+ seviyede olmanız gerekir!",
