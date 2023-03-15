@@ -7,7 +7,7 @@ let engFile = {};
 
 const fileNames = fs.readdirSync(langDir);
 fileNames.forEach((fileName)=>{
-    if (fileName.endsWith('.json')){
+    if (fileName.endsWith('.json') && !(fileName.startsWith('package'))){
         let content = fs.readFileSync(path.join(langDir, fileName), "utf-8");
         if (fileName === 'en.json'){
             engFile = JSON.parse(content);
@@ -38,26 +38,29 @@ for (const langName in langFiles) {
     //let missingKeys = {};
     //let completeKeys = {};
     for (const langPrimaryKey in engFile) {
-        if (langFiles[langName][langPrimaryKey] === undefined) {
+        if (typeof langFiles[langName][langPrimaryKey] === "undefined") {
             //missingKeys[langPrimaryKey] = engFile[langPrimaryKey];
             //completeKeys[langPrimaryKey] = engFile[langPrimaryKey];
             throw new Error(langName+' is missing primary '+langPrimaryKey);
         } else {
             if (typeof langFiles[langName][langPrimaryKey] !== 'string'){
                 for (const langSecondaryKey in engFile[langPrimaryKey]) {
-                    if (langFiles[langName][langPrimaryKey][langSecondaryKey] === undefined || !hasCorrectStringFormat(langFiles[langName][langPrimaryKey][langSecondaryKey],engFile[langPrimaryKey][langSecondaryKey])) {
+                    if (typeof langFiles[langName][langPrimaryKey][langSecondaryKey] === "undefined") {
                         //if (missingKeys[langPrimaryKey] === undefined)
                         //    missingKeys[langPrimaryKey] = {};
                         //missingKeys[langPrimaryKey][langSecondaryKey] = engFile[langPrimaryKey][langSecondaryKey];
-                        throw new Error(langName+"is missing secondary "+langSecondaryKey);
+                        throw new Error(langName+" is missing secondary "+langSecondaryKey);
                         //if (completeKeys[langPrimaryKey]===undefined)
                         //    completeKeys[langPrimaryKey] = {};
                         //completeKeys[langPrimaryKey][langSecondaryKey] = engFile[langPrimaryKey][langSecondaryKey];
-                    } //else {
+                    }//else {
                     //    if (completeKeys[langPrimaryKey] === undefined)
                     //        completeKeys[langPrimaryKey] = {};
                     //    completeKeys[langPrimaryKey][langSecondaryKey] = langFiles[langName][langPrimaryKey][langSecondaryKey];
                     //}
+                    if (!hasCorrectStringFormat(langFiles[langName][langPrimaryKey][langSecondaryKey],engFile[langPrimaryKey][langSecondaryKey])){
+                        throw new Error(langName+ " has an incorrect [%s] "+langPrimaryKey+"/"+langSecondaryKey);
+                    }
                 }
             } else {
                 if (!hasCorrectStringFormat(langFiles[langName][langPrimaryKey],engFile[langPrimaryKey])){
