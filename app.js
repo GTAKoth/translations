@@ -15,10 +15,8 @@ fileNames.forEach((fileName)=>{
             try{
                 langFiles[fileName.substring(0,fileName.length-5)] = JSON.parse(content);
             } catch (e) {
-                console.log(fileName.substring(0,fileName.length-5), "Is a bad file");
-                reportError(fileName.substring(0,fileName.length-5)+" is a bad file");
+                throw new Error(fileName.substring(0,fileName.length-5)+" is a bad file");
             }
-
         }
     }
 });
@@ -43,7 +41,7 @@ for (const langName in langFiles) {
         if (langFiles[langName][langPrimaryKey] === undefined) {
             //missingKeys[langPrimaryKey] = engFile[langPrimaryKey];
             //completeKeys[langPrimaryKey] = engFile[langPrimaryKey];
-            console.error(langName+' is missing primary '+langPrimaryKey)
+            throw new Error(langName+' is missing primary '+langPrimaryKey);
         } else {
             if (typeof langFiles[langName][langPrimaryKey] !== 'string'){
                 for (const langSecondaryKey in engFile[langPrimaryKey]) {
@@ -51,7 +49,7 @@ for (const langName in langFiles) {
                         //if (missingKeys[langPrimaryKey] === undefined)
                         //    missingKeys[langPrimaryKey] = {};
                         //missingKeys[langPrimaryKey][langSecondaryKey] = engFile[langPrimaryKey][langSecondaryKey];
-                        console.error(langName+"is missing secondary "+langSecondaryKey);
+                        throw new Error(langName+"is missing secondary "+langSecondaryKey);
                         //if (completeKeys[langPrimaryKey]===undefined)
                         //    completeKeys[langPrimaryKey] = {};
                         //completeKeys[langPrimaryKey][langSecondaryKey] = engFile[langPrimaryKey][langSecondaryKey];
@@ -64,7 +62,7 @@ for (const langName in langFiles) {
             } else {
                 if (!hasCorrectStringFormat(langFiles[langName][langPrimaryKey],engFile[langPrimaryKey])){
                     //missingKeys[langPrimaryKey] = engFile[langPrimaryKey]
-                    console.error(langName+" is missing a %s");
+                    throw new Error(langName+" is missing a %s");
                 } //else {
                  //   completeKeys[langPrimaryKey] = langFiles[langName][langPrimaryKey];
                 //}
