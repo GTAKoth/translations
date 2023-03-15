@@ -81,7 +81,9 @@
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Suoni morte %s.",
         "chat-messages-disableRank-toggle": "Grado chat %s.",
-        "chat-messages-display-uid": "Il tuo UID è [%s]"
+        "chat-messages-display-uid": "Il tuo UID è [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Devi essere di livello 100+ per prestigiare!",
@@ -174,7 +176,7 @@
         "1v1-pending-invite": "Hai già un invito 1v1 in sospeso!",
         "1v1-no-self": "Non puoi iniziare un 1v1 con te stesso!",
         "1v1-new-invite-wager": "%s ti ha appena invitato a un 1v1, utilizzerai il loro equipaggiamento attuale con una scommessa di $%s! Digita \"/1v1 %s\" per iniziare, questa offerta scade tra 60 secondi!",
-        "1v1-sent-invite-wager": "Hai appena invitato %s a una battaglia 1v1, utilizzerai il tuo equipaggiamento attuale per combattere nell'arena! Il vincitore riceverà la scommessa di $% dal giocatore perdente!",
+        "1v1-sent-invite-wager": "You just invited %s to a 1v1 battle, you will use your current loadout to fight in the arena! The winner will recieve the wager of $%s from the losing player!",
         "1v1-new-invite": "%s ti ha appena invitato a un 1v1, userai il loro equipaggiamento attuale! Digita \"/1v1 %s\" per iniziare, questa offerta scade tra 60 secondi!",
         "1v1-sent-invite": "Hai appena invitato %s a una battaglia 1v1, utilizzerai il tuo equipaggiamento attuale per combattere nell'arena!",
         "1v1-no-pending-invite": "Non hai un invito 1v1 in sospeso!",

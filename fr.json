@@ -78,10 +78,12 @@
         "chat-messages-nickname-too-long": "Ce surnom est trop long! Il doit contenir moins de 20 caractères.",
         "chat-messages-invalid-uid": "UID [%s] invalide!",
         "chat-messages-missing-args": "Missing required command arguments!",
-        "chat-messages-killfeed-toggle": "Killfeed %!.",
+        "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s!",
         "chat-messages-disableRank-toggle": "Chat rank %s!",
-        "chat-messages-display-uid": "Votre UID est [%s]!"
+        "chat-messages-display-uid": "Votre UID est [%s]!",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Vous avez besoin d'être niveau 100 pour passer un prestige!",

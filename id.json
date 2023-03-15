@@ -1,54 +1,54 @@
 {
-  "language-title": "Indonesia",
-  "language-flag": "id",
-  "basic": {
-    "forwards": "Ke depan",
-    "backwards": "Ke belakang",
-    "back": "Belakang",
-    "left": "Kiri",
-    "right": "Kanan",
-    "dead": "Mati",
-    "no-money": "Tidak ada uang",
-    "insufficient-funds": "Kekurangan uang",
-    "yes": "Ya",
-    "no": "Tidak",
-    "confirm": "Konfirmasi",
-    "deny": "Menolak",
-    "primary": "Senjata Utama",
-    "secondary": "Senjata Kedua",
-    "special": "Senjata Special",
-    "throwable": "Senjata Lempar",
-    "killstreaks": "Killstreaks",
-    "shop": "Toko",
-    "died": "Dibunuh",
-    "play": "MULAI",
-    "language": "Bahasa",
-    "team-full": "Tim ini sedang penuh atau tidak seimbang, Pilihlah tim lain!",
-    "error": "Error",
-    "transport": "Transportasi",
-    "transport-air": "Transportasi Udara",
-    "taking-transport": "menggunakan transportasi",
-    "team-revive": "membangkitkan teman",
-    "healing": "pengobatan",
-    "restocking": "pengisian amunisi",
-    "team-healer": "penyembuhan tim",
-    "team-supply": "supply tim"
-  },
-  "abilities": {
-    "revive-toast": "TEKAN E UNTUK MEMBANGKITKAN"
-  },
-  "rewards": {
-    "defending-obj": "mempertahankan objektif!",
-    "attacking-obj": "menyerang objektif!",
-    "playing": "Memainkan game!"
-  },
-  "announcements": {
-    "announce1": "Kamu dapat bergabung ke discord untuk bantuan, keuntungan dan memes! https://cosmicv.net/koth",
-    "announce2": "Mempunyai masalah dengan player di dalam server? Gunakan /report {id} {alasan} untuk direview oleh staff!", 
-    "announce3": "Tertarik untuk mendukung perkembangan komunitas ? Kunjungi toko kami di: https://store.cosmicv.net",
-    "announce4": "VIPs dan MVPs dapat melakukan modifikasi pada skin senjata dan masih banyak lagi! https://store.cosmicv.net",
-    "announce5": "VIP+ dapat memodifikasi notifikasi masuk/keluar dari server! https://store.comsicv.net"
-  },
+    "language-title": "Indonesia",
+    "language-flag": "id",
+    "basic": {
+        "forwards": "Ke depan",
+        "backwards": "Ke belakang",
+        "back": "Belakang",
+        "left": "Kiri",
+        "right": "Kanan",
+        "dead": "Mati",
+        "no-money": "Tidak ada uang",
+        "insufficient-funds": "Kekurangan uang",
+        "yes": "Ya",
+        "no": "Tidak",
+        "confirm": "Konfirmasi",
+        "deny": "Menolak",
+        "primary": "Senjata Utama",
+        "secondary": "Senjata Kedua",
+        "special": "Senjata Special",
+        "throwable": "Senjata Lempar",
+        "killstreaks": "Killstreaks",
+        "shop": "Toko",
+        "died": "Dibunuh",
+        "play": "MULAI",
+        "language": "Bahasa",
+        "team-full": "Tim ini sedang penuh atau tidak seimbang, Pilihlah tim lain!",
+        "error": "Error",
+        "transport": "Transportasi",
+        "transport-air": "Transportasi Udara",
+        "taking-transport": "menggunakan transportasi",
+        "team-revive": "membangkitkan teman",
+        "healing": "pengobatan",
+        "restocking": "pengisian amunisi",
+        "team-healer": "penyembuhan tim",
+        "team-supply": "supply tim"
+    },
+    "abilities": {
+        "revive-toast": "TEKAN E UNTUK MEMBANGKITKAN"
+    },
+    "rewards": {
+        "defending-obj": "mempertahankan objektif!",
+        "attacking-obj": "menyerang objektif!",
+        "playing": "Memainkan game!"
+    },
+    "announcements": {
+        "announce1": "Kamu dapat bergabung ke discord untuk bantuan, keuntungan dan memes! https://cosmicv.net/koth",
+        "announce2": "Mempunyai masalah dengan player di dalam server? Gunakan /report {id} {alasan} untuk direview oleh staff!",
+        "announce3": "Tertarik untuk mendukung perkembangan komunitas ? Kunjungi toko kami di: https://store.cosmicv.net",
+        "announce4": "VIPs dan MVPs dapat melakukan modifikasi pada skin senjata dan masih banyak lagi! https://store.cosmicv.net",
+        "announce5": "VIP+ dapat memodifikasi notifikasi masuk/keluar dari server! https://store.comsicv.net"
+    },
     "cosmetics": {
         "no-permission-hat": "Kamu tidak bisa menggunakan topi tersebut!",
         "hat-applied": "Berhasil menggunakan topi tersebut!",
@@ -81,7 +81,9 @@
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
-        "chat-messages-display-uid": "UID Kamu adalah [%s]"
+        "chat-messages-display-uid": "UID Kamu adalah [%s]",
+        "chat-messages-bounty": "%s has a bounty of $%s",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
     },
     "prestige": {
         "not-100": "Kamu perlu level 100+ untuk prestige!",
