@@ -1,7 +1,7 @@
 const fs = require("node:fs");
 const path = require("path");
 
-const langDir = path.join(__dirname, 'lang');
+const langDir = path.join(__dirname);
 let langFiles = {};
 let engFile = {};
 
