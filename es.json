@@ -151,7 +151,7 @@
         "squad-not-leader": "No eres el líder de este escuadrón.!",
         "squad-revive": "Revivir escuadron",
         "squad-unique-name": "Ya existe un escuadron con ese nombre.",
-        "squad-player-not-in-squad": "El jugador [% s] no está en tu escuadron",
+        "squad-player-not-in-squad": "El jugador [%s] no está en tu escuadron",
         "squad-settag-success": "La etiqueta de escuadrón se ha establecido en [%s]",
         "squad-private": "Tu escuadrón es ahora %s.",
         "squad-already-in-squad": "Ya estás en un escuadrón, vete antes de unirte a otro escuadrón.",
@@ -193,6 +193,6 @@
         "1v1-on-cooldown": "¡Tú o tu oponente están en tiempo de espera para 1v1!"
     },
     "credits": {
-            "this-is-just-credits": "Made by Froggy__#0365, delete this before load the cfg"
+        "this-is-just-credits": "Made by Froggy__#0365, delete this before load the cfg"
     }
 }
