@@ -175,9 +175,9 @@
     "1v1": {
         "1v1-pending-invite": "Sinulla on jo odottava 1v1-kutsu!",
         "1v1-no-self": "Et voi aloittaa 1v1-kamppailua itsesi kanssa!",
-        "1v1-new-invite-wager": "%s on juuri kutsunut sinut 1v1-kamppailuun heidän käyttämällään varustuksella panoksena $%s! Kirjoita komento "/1v1 %s" aloittaaksesi, tämä tarjous vanhenee 60 sekunnin kuluttua!",
+        "1v1-new-invite-wager": "%s on juuri kutsunut sinut 1v1-kamppailuun heidän käyttämällään varustuksella panoksena $%s! Kirjoita komento 1v1 %s aloittaaksesi, tämä tarjous vanhenee 60 sekunnin kuluttua!",
         "1v1-sent-invite-wager": "Olet juuri kutsunut %s 1v1-kamppailuun käyttäen omaa varustustasi! Voittaja saa $%s hävinneeltä pelaajalta!",
-        "1v1-new-invite": "%s on juuri kutsunut sinut 1v1-kamppailuun heidän käyttämällään varustuksella! Kirjoita komento \"/1v1 %s/" aloittaaksesi, tämä tarjous vanhenee 60 sekunnin kuluttua!",
+        "1v1-new-invite": "%s on juuri kutsunut sinut 1v1-kamppailuun heidän käyttämällään varustuksella! Kirjoita komento 1v1 %s aloittaaksesi, tämä tarjous vanhenee 60 sekunnin kuluttua!",
         "1v1-sent-invite": "Olet juuri kutsunut %s 1v1-kamppailuun käyttäen omaa varustustasi!",
         "1v1-no-pending-invite": "Sinulla ei ole odottavaa 1v1-kutsua!",
         "1v1-in-battle": "Tämä pelaaja on jo 1v1-kamppailussa!",
