@@ -29,10 +29,10 @@
         "transport-air": "ilmakuljetus",
         "taking-transport": "käyttämällä kuljetusta",
         "team-revive": "tiimin elvytys",
-        "healing": "parantaminen",
-        "restocking": "ammusten täydennys",
-        "team-healer": "tiimin parantaja",
-        "team-supply": "tiimin tarvikkeet"
+        "healing": "parantumisesta",
+        "restocking": "ammusten täydennyksestä",
+        "team-healer": "tiimin parantamisesta",
+        "team-supply": "tiimin tarvikkeiden täydennyksestä"
     },
     "abilities": {
         "revive-toast": "PAINA E ELVYTTÄÄKSESI"
@@ -55,10 +55,10 @@
         "hat-removed": "Hattu poistettu onnistuneesti.",
         "hat-doesnt-exist": "Tällä nimellä ei löydy hattua!",
         "tag-doesnt-exist": "Tämä ei ole kelvollinen tagi! Käytä (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "Chat-tagi asetettu onnistuneesti pelaajalle!"
+        "tag-applied": "Chat-tagi asetettu onnistuneesti!"
     },
     "chat-messages": {
-        "chat-messages-immediate-server-restart": "Palvelin käynnistetään välittömästi, tallennetaan pelaajien tiedot ja käynnistetään uudelleen.",
+        "chat-messages-immediate-server-restart": "Pelaajien tiedot tallennetaan ja palvelin käynnistetään uudestaan välittömästi.",
         "chat-messages-server-restart-after-game": "Palvelimen uudelleenkäynnistys on ajoitettu tämän pelin jälkeen.",
         "chat-messages-map-vote-start": "Äänestys seuraavasta kartasta on juuri alkanut, kirjoita /mapvote vaikuttaaksesi äänestykseen!",
         "chat-messages-map-vote-ended": "Karttaäänestys on päättynyt! Seuraava kartta: %s",
@@ -74,7 +74,7 @@
         "chat-messages-challenge-completed": "Olet suorittanut päivittäisen haasteen.",
         "chat-messages-too-many-reports": "Arvostamme haluasi auttaa, mutta hidasta raportointia!",
         "chat-messages-invalid-player": "Epäkelpo pelaaja-ID, pelaajaa kyseisellä ID:llä ei ole olemassa.",
-        "chat-messages-no-permission": "Sinulla ei ole tarvittavaa asemaa tämän komennon käyttöön!",
+        "chat-messages-no-permission": "Sinulla ei ole tarvittavaa oikeutta tämän komennon käyttöön!",
         "chat-messages-nickname-too-long": "Kyseinen nimimerkki on liian pitkä! Alle 12 merkkiä.",
         "chat-messages-invalid-uid": "Epäkelpo UID [%s]",
         "chat-messages-missing-args": "Puuttuvat pakolliset komentoparametrit.",
@@ -86,33 +86,33 @@
         "chat-messages-bounty-claim": "%s on vaatinut %s:n palkkion $%s"
     },
     "prestige": {
-        "not-100": "Sinun täytyy olla tasolla 100+ noustaksesi arvon ylöspäin!",
-        "need-10k": "Tarvitset vähintään 10 000 $ noustaksesi arvon ylöspäin."
+        "not-100": "Sinun täytyy olla tasolla 100+ noustaksesi prestigen ylöspäin!",
+        "need-10k": "Tarvitset vähintään 10 000 $ noustaksesi prestigen ylöspäin."
     },
     "shops": {
         "shop-buy": "Osta",
         "shop-rent": "Vuokraa",
         "shop-spawn": "Luo",
-        "shop-enter-weapons": "Paina [E] avataksesi asekaupan",
+        "shop-enter-weapons": "Paina [E] avataksesi asekauppa",
         "shop-enter-killstreaks": "Paina [R] valitaksesi tapposarjat",
         "shop-enter-attachments": "Paina [E] avataksesi lisävarustekaapin",
-        "shop-enter-attachments-noweapon": "Pidä ase kädessäsi, kun haluat muokata sitä!",
+        "shop-enter-attachments-noweapon": "Pidä se ase kädessäsi, jota haluat muokata!",
         "shop-enter-presets": "Paina [G] avataksesi varusteluettelot",
-        "shop-enter-vehicles": "Paina [E] avataksesi ajoneuvokaupan",
+        "shop-enter-vehicles": "Paina [E] avataksesi ajoneuvokauppa",
         "shop-enter-ammo": "Paina [E] täyttääksesi ammukset",
         "shop-enter-repair": "Paina [E] korjataksesi ajoneuvoa",
         "shop-rebuy-vehicle": "Paina [R] vuokrataksesi uudelleen viimeinen ajoneuvosi",
-        "shop-error-vehicle-spawn": "Ajoneuvo ei ilmestynyt, sinua ei veloitettu.",
-        "shop-buy-parachute": "Olet saanut laskuvarjon. Valmis hyppäämään!",
+        "shop-error-vehicle-spawn": "Ajoneuvo ei ilmestynyt, sinulta ei veloitettu rahaa.",
+        "shop-buy-parachute": "Sait laskuvarjon. Olet valmis hyppäämään!",
         "shop-rent-vehicle-max-limit": "Ajoneuvoa ei voida vuokrata, joukkueen vuokrausraja on saavutettu.",
         "shop-error-low-funds": "Sinulla ei ole tarpeeksi rahaa %s tämän aseen ostamiseen! Tarvitset $%s",
-        "shop-error-low-level": "Et ole tarpeeksi korkealla tasolla siihen! Sinun on oltava tasolla %s",
+        "shop-error-low-level": "Et ole tarpeeksi korkealla tasolla tähän! Sinun on oltava tasolla %s",
         "shop-error-low-rank": "Sinun täytyy olla %s tämän ostamiseen.",
-        "shop-error-low-prestige": "Et ole tarpeeksi korkealla arvoasteikossa siihen! Sinun täytyy olla arvoasteikossa %s",
+        "shop-error-low-prestige": "Et ole tarpeeksi korkealla prestigellä tähän! Sinun täytyy olla prestige %s",
         "shop-ammo-no-config": "Tällä ajoneuvolla ei ole täyttöhintaa!",
         "shop-repair-no-config": "Tämä ajoneuvo ei voi korjata!",
-        "you-can-not-exit-here": "Et voi poistua ajoneuvostasi täältä, siirry eteenpäin!",
-        "repair-not-broken": "Tämä ajoneuvo ei ole tarpeeksi rikkoutunut korjattavaksi!",
+        "you-can-not-exit-here": "Et voi poistua ajoneuvostasi tässä, siirry eteenpäin hieman!",
+        "repair-not-broken": "Tämä ajoneuvo ei ole tarpeeksi rikki korjattavaksi!",
         "shop-no-vehicle": "Et ole ajoneuvossa!"
     },
     "shop-titles": {
