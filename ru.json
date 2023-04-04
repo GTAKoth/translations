@@ -75,7 +75,7 @@
         "chat-messages-too-many-reports": "Мы ценим ваше желание помочь, но пожалуйста, не перебарщивайте с отчетами!",
         "chat-messages-invalid-player": "Недопустимый идентификатор игрока, игрок с таким ID не существует.",
         "chat-messages-no-permission": "У вас нет необходимого ранга для использования этой команды!",
-        "chat-messages-nickname-too-long": "Это прозвище слишком длинное! Не более 12 символов.",
+        "chat-messages-nickname-too-long": "Это прозвище слишком длинное! Не более 20 символов.",
         "chat-messages-invalid-uid": "Недопустимый UID [%s]",
         "chat-messages-missing-args": "Отсутствуют требуемые аргументы команды.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
