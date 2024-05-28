@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "Défense de l'objectif!",
         "attacking-obj": "Attaque de l'objectif!",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "Joueur au jeu!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "Vous avez un problème avec un joueur sur notre serveur? Tapez /report {id} {raison} pour qu'un staff règle le problème!",
         "announce3": "Intéressé à soutenir le développement de la communauté? Jetez un coup d'oeil à notre boutique: https://store.cosmicv.net",
         "announce4": "Les VIP et les MVP peuvent personnaliser la couleurs de leurs d'armes et plus encore! https://store.cosmicv.net",
-        "announce5": "Les VIP+ peuvent personnaliser leurs messages lorsqu'ils rejoignent/quittent le serveur! https://store.comsicv.net"
+        "announce5": "Les VIP+ peuvent personnaliser leurs messages lorsqu'ils rejoignent/quittent le serveur! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "Vous n'avez pas la permission d'utiliser ce chapeau!",
@@ -55,16 +58,21 @@
         "hat-removed": "Chapeau retiré avec succès!",
         "hat-doesnt-exist": "Aucun chapeau de ce nom n'existe!",
         "tag-doesnt-exist": "Ce n'est pas un tag valide! Utilizez (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "Tag activé avec succès!"
+        "tag-applied": "Tag activé avec succès!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "Un redémarrage immédiat du serveur a commencer! Sauvegarde des données des joueurs puis redémarrage!",
         "chat-messages-server-restart-after-game": "Le serveur va redémarrer à la fin de cette partie!",
         "chat-messages-map-vote-start": "Le vote de la prochaine map vient de commencer, tapez /mapvote pour voter!",
         "chat-messages-map-vote-ended": "Le vote de la prochaine map vient de terminer! Prochaine map: %s",
-        "chat-messages-map-vote-voted": "%s vient de voter pour %s avec une puissance de %s (%s | %s)",
+        "chat-messages-map-vote-voted": "%s vient de voter pour %s [%s] avec une puissance de %s",
         "chat-messages-current-map-is": "La map actuelle est %s",
-        "chat-messages-next-map-is": "La prochaine map est %s",
+        "chat-messages-next-map-is": "La prochaine map est %s (%s)",
         "chat-messages-no-next-map": "La prochaine map n'a pas encore été choisie!",
         "chat-messages-not-valid-team-name": "Nom de team invalide!",
         "chat-messages-staff-player-removed": "%s a été expulser par le staff!",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Missing required command arguments!",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s!",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s!",
         "chat-messages-display-uid": "Votre UID est [%s]!",
         "chat-messages-bounty": "%s has a bounty of $%s",
-        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "Vous avez besoin d'être niveau 100 pour passer un prestige!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "Appuyez sur [E] pour ouvrir le magasin de véhicules",
         "shop-enter-ammo": "Appuyez sur [E] pour réapprovisionner le véhicule",
         "shop-enter-repair": "Appuyez sur [E] pour réparer le véhicule",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "Appuyez sur [R] pour relouer le dernier véhicule",
         "shop-error-vehicle-spawn": "Le véhicule n'est pas apparu, l'argent n'a pas été prélevé!",
         "shop-buy-parachute": "Vous avez reçu un parachute. Prêt à sauter!",
         "shop-rent-vehicle-max-limit": "Impossible de louer le véhicule, la limite par team a été atteinte!",
+        "shop-rent-armed-delay": "Vous ne pouvez pas faire apparaître de véhicules armés pendant les 5 premières minutes du match.",
         "shop-error-low-funds": "Vous n'avez pas assez d'argent pour %s cette arme! Vous avez besoin de $%s.",
         "shop-error-low-level": "Vous n'avez pas assez de niveaux! Vous devez être niveau %s.",
         "shop-error-low-rank": "Vous devez être %s!",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "Vous n'êtes pas dans un véhicule!"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "Magasin Véhicules",
         "shop-title-killstreaks": "Magasin Séries d'Éliminations",
         "shop-title-assault": "Magasin Classe Assault",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Votre adversaire n'as pas assez d'argent pour payer la mise!",
         "1v1-cant-afford": "Vous n'avez pas assez d'argent pour faire cette mise!",
         "1v1-on-cooldown": "Vous ou votre adversaire devez attendre pour lancer un nouveau duel!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }

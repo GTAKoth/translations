@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "Hedefi Savunun!",
         "attacking-obj": "Hedefe Saldırın!",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "Oyunu Oynayın!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "Sunucumuzdaki bir oyuncuyla ilgili bir sorununuz mu var? Personelin incelemesi için /report {id} {neden} kullanın!",
         "announce3": "Topluluk gelişimini desteklemekle ilgileniyor musunuz? Mağazamıza bakın: https://store.cosmicv.net",
         "announce4": "VIP'ler ve MVP'ler silah görünümlerini ve daha fazlasını özelleştirebilirler! https://store.cosmicv.net",
-        "announce5": "VIP+ kullanıcıları, katılma/ayrılma mesajlarını sunucudan özelleştirebilir! https://store.comsicv.net"
+        "announce5": "VIP+ kullanıcıları, katılma/ayrılma mesajlarını sunucudan özelleştirebilir! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "Bu şapkayı kullanma izniniz yok!",
@@ -55,16 +58,21 @@
         "hat-removed": "Şapka başarıyla çıkarıldı.",
         "hat-doesnt-exist": "Bu isimde bir şapka yok!",
         "tag-doesnt-exist": "Bu geçerli bir etiket değil! (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow) kullanın",
-        "tag-applied": "Sohbet etiketi oynatıcınıza başarıyla uygulandı!"
+        "tag-applied": "Sohbet etiketi oynatıcınıza başarıyla uygulandı!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "Aniden bir sunucu yeniden başlatma tetiklendi, oyuncu verileri kaydedildi ve yeniden başlatıldı.",
         "chat-messages-server-restart-after-game": "Bu oyundan sonra bir sunucunun yeniden başlatılması planlandı.",
         "chat-messages-map-vote-start": "Bir harita oylaması başladı, oyunuzu kullanmak için /mapvote yazın!",
         "chat-messages-map-vote-ended": "Harita oylaması sona erdi! Sonraki harita: %s",
-        "chat-messages-map-vote-voted": "%s az önce %s için %s oy kullandı (%s | %s)",
+        "chat-messages-map-vote-voted": "%s az önce %s [%s] için %s oy kullandı",
         "chat-messages-current-map-is": "Geçerli harita %s",
-        "chat-messages-next-map-is": "Sonraki harita %s",
+        "chat-messages-next-map-is": "Sonraki harita %s (%s)",
         "chat-messages-no-next-map": "Bir sonraki harita henüz seçilmedi.",
         "chat-messages-not-valid-team-name": "Geçerli bir takım adı değil.",
         "chat-messages-staff-player-removed": "%s personel tarafından kaldırıldı.",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Komutun bağımsız değişkenleri eksik.",
         "chat-messages-killfeed-toggle": "Öldürme beslemesi %s.",
         "chat-messages-death-sounds-toggle": "Ölüm sesi %s.",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Sohbet sıralaması %s.",
         "chat-messages-display-uid": "UID'niz [%s]",
         "chat-messages-bounty": "%s has a bounty of $%s",
-        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "Prestij kullanmak için 100+ seviyede olmanız gerekir!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "Araç mağazasına girmek için [E] tuşuna basın",
         "shop-enter-ammo": "Cephaneyi doldurmak için [E] tuşuna basın",
         "shop-enter-repair": "Aracı onarmak için [E] tuşuna basın",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "Son aracı yeniden kiralamak için [R]'ye basın",
         "shop-error-vehicle-spawn": "Araç doğmadı, sizden ücret alınmadı.",
         "shop-buy-parachute": "Size bir paraşüt verildi. Atlamak için hazır!",
         "shop-rent-vehicle-max-limit": "Araç kiralanamıyor, takım sınırına ulaşıldı.",
+        "shop-rent-armed-delay": "You can't spawn armed vehicles for the first five minutes of the match",
         "shop-error-low-funds": "Bu silahı %s yapmak için yeterli paranız yok! $%s'ye ihtiyacınız var",
         "shop-error-low-level": "Bunun için yeterince yüksek bir seviyede değilsin! %s seviyesinde olmanız gerekiyor",
         "shop-error-low-rank": "Bunu satın almak için %s olmanız gerekiyor.",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "Bir araçta değilsiniz!"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "Araç Mağazası",
         "shop-title-killstreaks": "Öldürme Serisinin Mağazası",
         "shop-title-assault": "Saldırı Sınıfı Mağazası",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Rakibiniz bu bahsi karşılayamaz!",
         "1v1-cant-afford": "Bu bahsi karşılayamazsın!",
         "1v1-on-cooldown": "Siz veya adayınız 1'e 1'ler için bekleme süresindesiniz!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }

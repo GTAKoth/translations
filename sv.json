@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "försvarar målet!",
         "attacking-obj": "attackerar målet!",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "Spelar spelet!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "Har du ett problem med en spelare på vår server? Använd /report {id} {anledning} så staffs kan ta en titt!",
         "announce3": "Intresserad i att supporta gemenskaps utvecklingen? Kolla in vår affär: https://store.cosmicv.net",
         "announce4": "VIPs och MVPs har möjligheten att anpassa sina vapen skins och mer! https://store.cosmicv.net",
-        "announce5": "VIP+ medlemmar kan anpassa sina join/leave meddelanden från servern! https://store.comsicv.net"
+        "announce5": "VIP+ medlemmar kan anpassa sina join/leave meddelanden från servern! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "Du har inte behörigheten att använda den här hatten!",
@@ -55,16 +58,21 @@
         "hat-removed": "Successfully removed hat.",
         "hat-doesnt-exist": "Ingen hatt med det namnet existerar!",
         "tag-doesnt-exist": "Detta är ingen möjlig tagg! Använd (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "Chat tagg aktiverades lyckat på din spelare!"
+        "tag-applied": "Chat tagg aktiverades lyckat på din spelare!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "En omedelbar server omstart har aktiverats, sparar spelar data och startar om.",
         "chat-messages-server-restart-after-game": "En server omstart har schemalagts efter denna runda!",
         "chat-messages-map-vote-start": "En kart röstning har precis påbörjats, skriv /mapvote för att lägga din röst!",
         "chat-messages-map-vote-ended": "Kart röstning har avslutats! Nästa karta: %s",
-        "chat-messages-map-vote-voted": "%s har precis röstat för %s med en styrka på %s (%s | %s)",
+        "chat-messages-map-vote-voted": "%s har precis röstat för %s [%s] med en styrka på %s",
         "chat-messages-current-map-is": "Nuvarande kartan är %s",
-        "chat-messages-next-map-is": "Nästa karta är %s",
+        "chat-messages-next-map-is": "Nästa karta är %s (%s)",
         "chat-messages-no-next-map": "Nästa karta har inte valts än.",
         "chat-messages-not-valid-team-name": "Inte ett giltigt lag namn.",
         "chat-messages-staff-player-removed": "%s blev borttagen av staff.",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Missing required command arguments.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
         "chat-messages-display-uid": "Your UID is [%s]",
         "chat-messages-bounty": "%s has a bounty of $%s",
-        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "Du behöver vara levle 100+ för att prestiga!!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "Tryck [E] för att använda fordons affären",
         "shop-enter-ammo": "Tryck [E] för att fylla på ammunition",
         "shop-enter-repair": "Tryck [E] för att reparera fordonet",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "Tryck [R] för att hyra om senaste bilen",
         "shop-error-vehicle-spawn": "Fordonet spawnades inte, du blev inte debiterad.",
         "shop-buy-parachute": "Du har fått en fallskärm. Redo att hoppa!",
         "shop-rent-vehicle-max-limit": "Kunde inte hyra fordonet, lag gränsen har nåtts.",
+        "shop-rent-armed-delay": "You can't spawn armed vehicles for the first five minutes of the match",
         "shop-error-low-funds": "Du har inte nog med pengar för %s detta vapen Du behöver $%s",
         "shop-error-low-level": "Du är inte hög nog med level för det där! Du behöver vara level %s",
         "shop-error-low-rank": "Du behöver vara %s för att köpa detta.",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "Du är inte i ett fordon!"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "Fordons Affär",
         "shop-title-killstreaks": "Killstreak Affär",
         "shop-title-assault": "Assault Klass Affär",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Your opponent can not afford that wager!",
         "1v1-cant-afford": "You can not afford that wager!",
         "1v1-on-cooldown": "You or your apponent is on a cooldown for 1v1's!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }

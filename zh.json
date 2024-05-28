@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "defending the objective!",
         "attacking-obj": "attacking objective!",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "Playing the game!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "Have a problem with a player on our server? Use /report {id} {reason} for staff to review!",
         "announce3": "Interested in supporting the community development? Look at our store: https://store.cosmicv.net",
         "announce4": "VIPs and MVPs are able to cusomize their weapon skins and more! https://store.cosmicv.net",
-        "announce5": "VIP+ users can customise their join/leave messages from the server! https://store.comsicv.net"
+        "announce5": "VIP+ users can customise their join/leave messages from the server! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "You do not have permission to use this hat!",
@@ -55,16 +58,21 @@
         "hat-removed": "Successfully removed hat.",
         "hat-doesnt-exist": "No hat by that name exists!",
         "tag-doesnt-exist": "That is not a valid tag! Use (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "Chat tag successfully applied to your player!"
+        "tag-applied": "Chat tag successfully applied to your player!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "已安排伺服器立即重啟，保存玩家資料並重啟.",
         "chat-messages-server-restart-after-game": "已安排本場比賽後重啟伺服器.",
         "chat-messages-map-vote-start": "地圖投票剛剛開始，輸入 /mapvote 進行投票!",
         "chat-messages-map-vote-ended": "地圖投票已結束！ 下一張地圖: %s",
-        "chat-messages-map-vote-voted": "%s 剛剛投了贊成票 %s 具有能力 %s (%s | %s)",
+        "chat-messages-map-vote-voted": "%s 剛剛投了贊成票 %s [%s] 具有能力 %s",
         "chat-messages-current-map-is": "現在的地圖是 %s",
-        "chat-messages-next-map-is": "下一張地圖是 %s",
+        "chat-messages-next-map-is": "下一張地圖是 %s (%s)",
         "chat-messages-no-next-map": "下一張地圖還沒選.",
         "chat-messages-not-valid-team-name": "不是有效的團隊名稱.",
         "chat-messages-staff-player-removed": "%s 被工作人員移除.",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Missing required command arguments.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
         "chat-messages-display-uid": "Your UID is [%s]",
         "chat-messages-bounty": "%s has a bounty of $%s",
-        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "You need to be level 100+ to prestige!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "按E進入車輛商店",
         "shop-enter-ammo": "Press [E] to refill ammo",
         "shop-enter-repair": "Press [E] to repair vehicle",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "按 R 重新租用最後一輛車",
         "shop-error-vehicle-spawn": "車輛沒有產生，你沒有被收費.",
         "shop-buy-parachute": "你已經得到了降落傘。 準備跳!",
         "shop-rent-vehicle-max-limit": "無法租用車輛，已達到團隊限制.",
+        "shop-rent-armed-delay": "You can't spawn armed vehicles for the first five minutes of the match",
         "shop-error-low-funds": "You do not have enough money to %s this weapon! You need $%s",
         "shop-error-low-level": "你的等級還不夠高！ 你需要更高等級 %s",
         "shop-error-low-rank": "You need to be %s to purchase this.",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "You are not in a vehicle!"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "車輛商店",
         "shop-title-killstreaks": "連殺紀錄商店",
         "shop-title-assault": "突擊類商店",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Your opponent can not afford that wager!",
         "1v1-cant-afford": "You can not afford that wager!",
         "1v1-on-cooldown": "You or your apponent is on a cooldown for 1v1's!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }

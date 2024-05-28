@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "क्षेत्र की रक्षा!",
         "attacking-obj": "उद्देश्य की और हमला ",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "गेम खेल रहे हैं!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "हमारे सर्वर पर प्लेयर के साथ कोई समस्या है? कर्मचारियों की समीक्षा के लिए /report {आईडी} {कारण} का उपयोग करें!",
         "announce3": "हमारे समुदाय के विकास के समर्थन मैं रूचि रखते हैं? हमारे स्टोर पर जाएं:  https://store.cosmicv.net",
         "announce4": "वीआईपी और एमवीपी अपने हथियार की स्किन और अनेक चीज़ों को पर्सनॅलिजे करने मैं सक्छम हैं! https://store.cosmicv.net",
-        "announce5": "VIP+ उपयोगकर्ता सर्वर से अपने शामिल होने/छोड़ने के संदेशों को अनुकूलित कर सकते हैं! https://store.comsicv.net"
+        "announce5": "VIP+ उपयोगकर्ता सर्वर से अपने शामिल होने/छोड़ने के संदेशों को अनुकूलित कर सकते हैं! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "आपके पास इस टोपी का उपयोग करने की अनुमति नहीं है!",
@@ -55,16 +58,21 @@
         "hat-removed": "Successfully removed hat.",
         "hat-doesnt-exist": "उस नाम की कोई टोपी मौजूद नहीं है!",
         "tag-doesnt-exist": "वह वैध टैग नहीं है!इनका  इस्तेमाल करें (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "चैट टैग आपके प्लेयर पर सफलतापूर्वक लागू हो गया!"
+        "tag-applied": "चैट टैग आपके प्लेयर पर सफलतापूर्वक लागू हो गया!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "एक तत्काल सर्वर पुनरारंभ शुरू हो गया है, प्लेयर डेटा सहेज रहा है और फिर सर्वर पुनरारंभ हो रहा है।",
         "chat-messages-server-restart-after-game": "इस गेम के बाद एक सर्वर रीस्टार्ट शेड्यूल किया गया है।",
         "chat-messages-map-vote-start": "मैप वोट अभी शुरू हुआ है, अपना वोट डालने के लिए /mapvote टाइप करें!",
         "chat-messages-map-vote-ended": "मैप वोट समाप्त हो गया है! अगला मैप: %s",
-        "chat-messages-map-vote-voted": "%s की शक्ति से %s के लिए अभी-अभी वोट किया है %s (%s | %s)",
+        "chat-messages-map-vote-voted": "%s की शक्ति से %s [%s] के लिए अभी-अभी वोट किया है %s",
         "chat-messages-current-map-is": "वर्तमान मैप है %s",
-        "chat-messages-next-map-is": "अगला मैप है %s",
+        "chat-messages-next-map-is": "अगला मैप है %s (%s)",
         "chat-messages-no-next-map": "अगला मैप अभी तक चयन किया गया है।",
         "chat-messages-not-valid-team-name": "यह मान्य टीम नाम नहीं है।",
         "chat-messages-staff-player-removed": "%s कर्मचारियों द्वारा हटा दिया गया।",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Missing required command arguments.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
         "chat-messages-display-uid": "Your UID is [%s]",
         "chat-messages-bounty": "%s has a bounty of $%s",
-        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "आपको प्रेस्टीज करने के लिए 100+ के स्तर की आवश्यकता है!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "वाहन की दुकान में प्रवेश करने के लिए [E] दबाएं",
         "shop-enter-ammo": "बारूद भरने के लिए [E] दबाएं",
         "shop-enter-repair": "वाहन की मरम्मत के लिए [E] दबाएं",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "अंतिम वाहन को फिर से किराए पर लेने के लिए [R] दबाएं",
         "shop-error-vehicle-spawn": "वाहन नहीं निकला, आपसे शुल्क नहीं लिया गया।",
         "shop-buy-parachute": "आपको एक पैराशूट दिया गया है। कूदने के लिए तैयार!",
         "shop-rent-vehicle-max-limit": "वाहन किराए पर लेने में असमर्थ, टीम मैं वाहन की अधिकतम संख्या है।",
+        "shop-rent-armed-delay": "You can't spawn armed vehicles for the first five minutes of the match",
         "shop-error-low-funds": "आपके पास इस हथियार को %s करने के लिए पर्याप्त पैसा नहीं है! आपको $%s की जरूरत है.",
         "shop-error-low-level": "आप उसके लिए पर्याप्त उच्च स्तर के नहीं हैं! %s तक लेवल करना होगा",
         "shop-error-low-rank": "इसे खरीदने के लिए आपको %s होना चाहिए।",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "आप एक वाहन में नहीं हैं"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "वाहन दुकान",
         "shop-title-killstreaks": "किलस्ट्रेक शॉप",
         "shop-title-assault": "असाल्ट क्लास की दुकान",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Your opponent can not afford that wager!",
         "1v1-cant-afford": "You can not afford that wager!",
         "1v1-on-cooldown": "You or your apponent is on a cooldown for 1v1's!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }

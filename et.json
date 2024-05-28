@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "Ala kaitsemine",
         "attacking-obj": "Ala Ründamine!",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "Mängu mängimine!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "Kas teil on probleeme meie serveris oleva mängijaga? Töötajate ülevaatamiseks kasutage /report {id} {reason}!",
         "announce3": "Kas olete huvitatud kogukonna arengu toetamisest? Vaata meie poodi: https://store.cosmicv.net",
         "announce4": "VIP-id ja MVP-d saavad oma relva skinne ja palju muud muuta! https://store.cosmicv.net",
-        "announce5": "VIP+ kasutajad saavad oma liitumis- ja lahkumissõnumeid serverist muuta! https://store.comsicv.net"
+        "announce5": "VIP+ kasutajad saavad oma liitumis- ja lahkumissõnumeid serverist muuta! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "Sul puudub luba selle mütsi kasutamiseks!",
@@ -55,16 +58,21 @@
         "hat-removed": "Müts edukalt eemaldatud.",
         "hat-doesnt-exist": "Sellise nimega müts puudub!",
         "tag-doesnt-exist": "See ei ole kehtiv silt! Kasuta (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "Vestluse silt on teie mängijale edukalt rakendatud!"
+        "tag-applied": "Vestluse silt on teie mängijale edukalt rakendatud!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "Käivitatud on kohene serveri taaskäivitamine, salvestades mängija andmed ja taaskäivitades.",
         "chat-messages-server-restart-after-game": "Pärast seda mängu on ajastatud serveri taaskäivitamine.",
         "chat-messages-map-vote-start": "Alahääletus on alanud, hääle andmiseks kirjuta /mapvote!",
         "chat-messages-map-vote-ended": "Alahääletus on lõppenud! Järgmine ala: %s",
-        "chat-messages-map-vote-voted": "%s hääletas just %s poolt võimsusega %s (%s | %s)",
+        "chat-messages-map-vote-voted": "%s hääletas just %s [%s] poolt võimsusega %s",
         "chat-messages-current-map-is": "Praegune ala on %s",
-        "chat-messages-next-map-is": "Järgmine ala on %s",
+        "chat-messages-next-map-is": "Järgmine ala on %s (%s)",
         "chat-messages-no-next-map": "Järgmine ala on veel valimata.",
         "chat-messages-not-valid-team-name": "Mitte sobiv grupi nimi.",
         "chat-messages-staff-player-removed": "%s eemaldati staffi poolt.",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Puuduvad kohustuslikud käsuargumendid.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Surma helid %s.",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Vestlusaste %s.",
         "chat-messages-display-uid": "Sinu UID on [%s]",
         "chat-messages-bounty": "%s On pearaha summas $%s",
-        "chat-messages-bounty-claim": "%s võttis %s's pearaha summas $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s võttis %s's pearaha summas $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "Sa pead olema lvl 100+ et prestigeda!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "Sõidukite poe avamiseks vajutage [E]",
         "shop-enter-ammo": "Laskemoona täitmiseks vajutage [E]",
         "shop-enter-repair": "Vajuta [E] Sõituki parandamiseks",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "Viimase sõiduki uuesti rentimiseks vajutage [R]",
         "shop-error-vehicle-spawn": "Sõiduk ei spawninud, teilt ei võetud raha.",
         "shop-buy-parachute": "Sulle on antud langevari. Hüppamiseks valmis!",
         "shop-rent-vehicle-max-limit": "Sõidukit ei saa rentida, meeskonna limiit on täis.",
+        "shop-rent-armed-delay": "You can't spawn armed vehicles for the first five minutes of the match",
         "shop-error-low-funds": "Sul pole piisavalt raha %s selle relva jaoks! Vajad $%s",
         "shop-error-low-level": "Sa pole selleks piisavalt kõrge level! Peate olema level %s",
         "shop-error-low-rank": "Selle ostmiseks peate olema %s.",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "Te ei ole sõidukis!"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "Sõidukipood",
         "shop-title-killstreaks": "Killstreaki pood",
         "shop-title-assault": "Rünnakuklassi pood",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Teie vastane ei saa seda panust endale lubada!",
         "1v1-cant-afford": "Te ei saa seda panust endale lubada!",
         "1v1-on-cooldown": "Sina või su vastane on 1v1 mängude jahtumisel!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }

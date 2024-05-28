@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "mempertahankan objektif!",
         "attacking-obj": "menyerang objektif!",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "Memainkan game!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "Mempunyai masalah dengan player di dalam server? Gunakan /report {id} {alasan} untuk direview oleh staff!",
         "announce3": "Tertarik untuk mendukung perkembangan komunitas ? Kunjungi toko kami di: https://store.cosmicv.net",
         "announce4": "VIPs dan MVPs dapat melakukan modifikasi pada skin senjata dan masih banyak lagi! https://store.cosmicv.net",
-        "announce5": "VIP+ dapat memodifikasi notifikasi masuk/keluar dari server! https://store.comsicv.net"
+        "announce5": "VIP+ dapat memodifikasi notifikasi masuk/keluar dari server! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "Kamu tidak bisa menggunakan topi tersebut!",
@@ -55,16 +58,21 @@
         "hat-removed": "Berhasil menghapus topi.",
         "hat-doesnt-exist": "Nama topi tersebut tidak tersedia!",
         "tag-doesnt-exist": "Tag tersebut tidak tersedia! Gunakan (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "Chat tag berhasil dirubah!"
+        "tag-applied": "Chat tag berhasil dirubah!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "Server akan direstart sekarang, menyimpan data pemain dan memulai ulang.",
         "chat-messages-server-restart-after-game": "Server restart sudah dijadwalkan setelah game selesai.",
         "chat-messages-map-vote-start": "Voting map sudah dimulai, ketik /mapvote untuk melakukan vote!",
         "chat-messages-map-vote-ended": "Voting map sudah selesai! Map selanjutnya: %s",
-        "chat-messages-map-vote-voted": "%s baru saja vote untuk %s dengan kekuatan voting sebesar %s (%s | %s)",
+        "chat-messages-map-vote-voted": "%s baru saja vote untuk %s [%s] dengan kekuatan voting sebesar %s",
         "chat-messages-current-map-is": "Map sekarang adalah %s",
-        "chat-messages-next-map-is": "Map selanjutnya adalah %s",
+        "chat-messages-next-map-is": "Map selanjutnya adalah %s (%s)",
         "chat-messages-no-next-map": "Map selanjutnya belum dipilih.",
         "chat-messages-not-valid-team-name": "Nama tim tersebut tidak valid.",
         "chat-messages-staff-player-removed": "%s telah dihapus oleh staff.",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Argument perintah tersebut kurang.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Death sounds %s.",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
         "chat-messages-display-uid": "UID Kamu adalah [%s]",
         "chat-messages-bounty": "%s has a bounty of $%s",
-        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "Kamu perlu level 100+ untuk prestige!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "Tekan [E] untuk membuka toko kendaraan",
         "shop-enter-ammo": "Tekan [E] untuk mengisi peluru",
         "shop-enter-repair": "Tekan [E] untuk memperbaiki kendaraan",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "Tekan [R] untuk menyewa ulang kendaraan sebelumnya",
         "shop-error-vehicle-spawn": "Kendaraan tidak muncul, kamu tidak perlu membayar.",
         "shop-buy-parachute": "Kamu telah diberi parasut. Siap untuk melompat!",
         "shop-rent-vehicle-max-limit": "Gagal untuk menyewa kendaraan, tim sudah mencapai batas maksimum kendaraan.",
+        "shop-rent-armed-delay": "You can't spawn armed vehicles for the first five minutes of the match",
         "shop-error-low-funds": "Kamu tidak memiliki uang yang cukup untuk %s senjata ini! Kamu perlu $%s",
         "shop-error-low-level": "Level kamu belum mencukupi untuk itu! Kamu perlu level %s",
         "shop-error-low-rank": "Kamu harus menjadi %s untuk membeli ini.",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "Kamu tidak dalam kendaraan!"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "Toko Kendaraan",
         "shop-title-killstreaks": "Toko Killstreak",
         "shop-title-assault": "Toko Kelas Assault",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Lawan kamu tidak mampu untuk taruhan!",
         "1v1-cant-afford": "Kamu tidak mampu untuk taruhan!",
         "1v1-on-cooldown": "Kamu atau musuh kamu sedang dalam cooldown 1v1!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }

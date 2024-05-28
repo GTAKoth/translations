@@ -40,6 +40,8 @@
     "rewards": {
         "defending-obj": "Beskytter objektivet!",
         "attacking-obj": "Angriber objektivet!",
+        "attacking-prio": "Attacking priority zone",
+        "defending-prio": "Defending priority zone",
         "playing": "Spiller spillet!"
     },
     "announcements": {
@@ -47,7 +49,8 @@
         "announce2": "Har du et problem med en spiller på vores server? Brug /report {id} {Grund} Så vores staff kan kigge op på det!",
         "announce3": "Interesseret i at hjælpe Fællesskabets udvikling? Kig igennem vores butik: https://store.cosmicv.net",
         "announce4": "VIPs og MVPs har mulighed for at ændre deres våben skin og mere! https://store.cosmicv.net",
-        "announce5": "VIP+ brugere kan personliggøre deres join/leave beskeder fra vores server! https://store.comsicv.net"
+        "announce5": "VIP+ brugere kan personliggøre deres join/leave beskeder fra vores server! https://store.comsicv.net",
+        "announce6": "We are looking for staff! Use /apply in our discord."
     },
     "cosmetics": {
         "no-permission-hat": "Du har ikke tilladelse til at bruge denne hat!",
@@ -55,16 +58,21 @@
         "hat-removed": "Hatten er nu fjernet.",
         "hat-doesnt-exist": "ingen hat med det navn eksisterer!",
         "tag-doesnt-exist": "Det tag findes ikke! Brug (snowflake/rainbow/candy/red/dark_red/light_blue/blue/dark_blue/green/neon_green/dark_green/orange/purple/gray/gold/pink/dark_pink/brown/yellow)",
-        "tag-applied": "Chat tag er nu aktiveret!"
+        "tag-applied": "Chat tag er nu aktiveret!",
+        "tag-unset": "Chat tags successfully removed.",
+        "connect-set": "Successfully set connecting message to [%s]",
+        "connect-unset": "Successfully disabled connecting message.",
+        "disconnect-set": "Successfully set disconnecting message to [%s]",
+        "disconnect-unset": "Successfully disabled disconnecting message."
     },
     "chat-messages": {
         "chat-messages-immediate-server-restart": "Et øjeblikkeligt server genstart er blevet brugt, gemmer spiller data og genstarter.",
         "chat-messages-server-restart-after-game": "Et server genstart er blevet planlagt efter dette spil.",
         "chat-messages-map-vote-start": "En ny kort afstemning er sat i gang, skriv /mapvote for at stemme!",
         "chat-messages-map-vote-ended": "Kort afstemningen er slut! Næste kort: %s",
-        "chat-messages-map-vote-voted": "%s har stemt på %s med kraften af %s (%s | %s)",
+        "chat-messages-map-vote-voted": "%s har stemt på %s [%s] med kraften af %s",
         "chat-messages-current-map-is": "Nuværende kort er %s",
-        "chat-messages-next-map-is": "Næste kort er %s",
+        "chat-messages-next-map-is": "Næste kort er %s (%s)",
         "chat-messages-no-next-map": "Næste kort er ikke valgt endnu.",
         "chat-messages-not-valid-team-name": "Ikke et gyldigt hold navn.",
         "chat-messages-staff-player-removed": "%s blev fjernet af staff.",
@@ -80,10 +88,20 @@
         "chat-messages-missing-args": "Manglende påkrævede command argumenter.",
         "chat-messages-killfeed-toggle": "Killfeed %s.",
         "chat-messages-death-sounds-toggle": "Døds lyde %s.",
+        "chat-messages-clipping-toggle": "Auto clipping %s.",
         "chat-messages-disableRank-toggle": "Chat rank %s.",
         "chat-messages-display-uid": "Dit UID er [%s]",
         "chat-messages-bounty": "%s has a bounty of $%s",
-        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s"
+        "chat-message-bounty-self": "You can't place a bounty on yourself.",
+        "chat-messages-keypoint": "The prio-zone is in a keypoint! Keypoints give bonus rewards!",
+        "chat-messages-bounty-claim": "%s has claimed %s's bounty of $%s",
+        "chat-messages-commands-too-fast": "Slow down with your commands.",
+        "chat-messages-switch-outside-spawn": "You need to be in your spawn to use /switch",
+        "chat-messages-switch-over-limit": "You cannot switch when points are over 65.",
+        "chat-messages-not-in-hill": "You can't do this outside of the hill.",
+        "chat-messages-too-much-place": "You can't place any more.",
+        "chat-messages-not-in-spawn": "You can't do this inside your spawn.",
+        "chat-messages-first-blood": "Player %s has gotten First Blood on %s!"
     },
     "prestige": {
         "not-100": "Du skal være level 100+ for at kunne prestige!",
@@ -101,10 +119,12 @@
         "shop-enter-vehicles": "Tryk [E] for at åbne køretøjs butikken",
         "shop-enter-ammo": "Tryk [E] for at genopfylde ammo",
         "shop-enter-repair": "Tryk [E] for at reparere køretøjet",
+        "shop-enter-cosmetics": "Press [E] to enter cosmetics shop",
         "shop-rebuy-vehicle": "Tryk [R] for at leje seneste køretøj igen",
         "shop-error-vehicle-spawn": "Køretøjet spawnede ikke, ingen penge blev trukket.",
         "shop-buy-parachute": "Du har fået en faldskærm. Gør dig klar til at hoppe!",
         "shop-rent-vehicle-max-limit": "Ikke muligt at leje dette køretøj, holdets grænse er nået.",
+        "shop-rent-armed-delay": "You can't spawn armed vehicles for the first five minutes of the match",
         "shop-error-low-funds": "Du har ikke nok penge til at %s dette våben! du har brug for $%s",
         "shop-error-low-level": "Du er ikke højt nok level for dette! Du skal være level %s",
         "shop-error-low-rank": "Du skal være %s for kunne købe dette.",
@@ -116,6 +136,7 @@
         "shop-no-vehicle": "Du er ikke i et køretøj!"
     },
     "shop-titles": {
+        "shop-title-cosmic": "Cosmic Cosmetic Shop",
         "shop-title-vehicle": "Køretøjs Butik",
         "shop-title-killstreaks": "Killstreak Butik",
         "shop-title-assault": "Assault Class Butik",
@@ -193,5 +214,15 @@
         "1v1-target-broke": "Din modstander har ikke råd til det bet!",
         "1v1-cant-afford": "Du har ikke råd til det bet!",
         "1v1-on-cooldown": "Du eller din modstander har nedkøling fra 1v1's!"
+    },
+    "multi-kill": {
+        "double-kill": "Double Kill",
+        "triple-kill": "Triple Kill",
+        "quad-kill": "Quad Kill",
+        "frenzy-kill": "Frenzy Kill",
+        "super-kill": "Super Kill",
+        "mega-kill": "Mega Kill",
+        "ultra-kill": "Ultra Kill",
+        "kill-chain": "Kill Chain"
     }
 }
